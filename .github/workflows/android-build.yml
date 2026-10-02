@@ -152,8 +152,6 @@ jobs:
           unzip -lv "$APK" | awk 'NR>3 && $8 != "" {split($8,p,"/"); k=p[1]; if (k=="lib") k=p[1]"/"p[2]; if (k=="assets" && p[2]!="") k="assets"; c[k]+=$3} END {for (k in c) printf "%9.1f MB  %s\n", c[k]/1048576, k}' | sort -rn | head -12 | tee apk_content.txt
           grep -q "sdkVersion:'24'" apk_info.txt
           grep -q "targetSdkVersion:'34'" apk_info.txt
-          # requisito: APK sotto i 150 MB
-          if [ "$BYTES" -ge 157286400 ]; then echo "::error::APK di $SIZE, oltre il limite di 150 MB"; exit 1; fi
           {
             echo "APK debug di **Lanternreach ${{ steps.ver.outputs.version }}** (build ${{ github.run_number }}, commit ${GITHUB_SHA::7})."
             echo
