@@ -29,7 +29,7 @@ jobs:
       image: barichello/godot-ci:4.3
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Versione
         id: ver
@@ -144,11 +144,16 @@ jobs:
           "$BT/aapt" dump badging "$APK" | grep -E "^package|sdkVersion|targetSdkVersion|native-code|launchable-activity|application-label:" | tee apk_info.txt
           "$BT/apksigner" verify --verbose --print-certs "$APK" | grep -E "Verified|Signer #1 certificate DN" | tee -a apk_info.txt
           SIZE=$(du -h "$APK" | cut -f1)
+          BYTES=$(stat -c %s "$APK")
           SHA=$(sha256sum "$APK" | cut -d' ' -f1)
           echo "size=$SIZE" >> "$GITHUB_OUTPUT"
-          echo "Dimensione: $SIZE, SHA-256: $SHA" | tee -a apk_info.txt
+          echo "Dimensione: $SIZE ($BYTES byte), SHA-256: $SHA" | tee -a apk_info.txt
+          # contenuto dell'APK raggruppato (dimensione compressa nell'archivio)
+          unzip -lv "$APK" | awk 'NR>3 && $8 != "" {split($8,p,"/"); k=p[1]; if (k=="lib") k=p[1]"/"p[2]; if (k=="assets" && p[2]!="") k="assets"; c[k]+=$3} END {for (k in c) printf "%9.1f MB  %s\n", c[k]/1048576, k}' | sort -rn | head -12 | tee apk_content.txt
           grep -q "sdkVersion:'24'" apk_info.txt
           grep -q "targetSdkVersion:'34'" apk_info.txt
+          # requisito: APK sotto i 150 MB
+          if [ "$BYTES" -ge 157286400 ]; then echo "::error::APK di $SIZE, oltre il limite di 150 MB"; exit 1; fi
           {
             echo "APK debug di **Lanternreach ${{ steps.ver.outputs.version }}** (build ${{ github.run_number }}, commit ${GITHUB_SHA::7})."
             echo
@@ -158,6 +163,10 @@ jobs:
             echo '```'
             cat apk_info.txt
             echo '```'
+            echo "### Contenuto (compresso)"
+            echo '```'
+            cat apk_content.txt
+            echo '```'
             echo "### Test"
             echo '```'
             cat test_summary.txt
@@ -165,14 +174,14 @@ jobs:
           } > release_notes.md
 
       - name: Artifact APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.ver.outputs.apk }}
           path: build/${{ steps.ver.outputs.apk }}
           if-no-files-found: error
 
       - name: Release GitHub
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ steps.ver.outputs.tag }}
           name: Lanternreach ${{ steps.ver.outputs.version }} (build ${{ github.run_number }})
@@ -183,7 +192,7 @@ jobs:
 
       - name: Log in caso di errore
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: logs-${{ github.run_number }}
           path: |
