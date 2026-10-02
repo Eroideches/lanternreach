@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c8oai2voklxnc"
+
+[deps]
+
+files=["res://data/csv/daily_missions.metric.translation", "res://data/csv/daily_missions.target.translation", "res://data/csv/daily_missions.reward.translation", "res://data/csv/daily_missions.reward.translation", "res://data/csv/daily_missions.name.translation"]
+
+source_file="res://data/csv/daily_missions.csv"
+dest_files=["res://data/csv/daily_missions.metric.translation", "res://data/csv/daily_missions.target.translation", "res://data/csv/daily_missions.reward.translation", "res://data/csv/daily_missions.reward.translation", "res://data/csv/daily_missions.name.translation"]
+
+[params]
+
+compress=true
+delimiter=0

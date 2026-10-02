@@ -1,0 +1,9 @@
+id,index,trophies_min,trophies_max,first_reach_gems,win_loot_bonus
+wick,1,0,299,0,0.0
+spark,2,300,599,5,0.0
+ember,3,600,999,10,0.05
+flame,4,1000,1399,20,0.08
+blaze,5,1400,1799,30,0.1
+beacon,6,1800,2399,50,0.15
+lighthouse,7,2400,3199,80,0.2
+sunforge,8,3200,99999,120,0.25

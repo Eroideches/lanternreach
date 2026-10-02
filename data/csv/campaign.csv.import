@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://5e5mvydw3x2n"
+
+[deps]
+
+files=["res://data/csv/campaign.name.translation", "res://data/csv/campaign.name.translation", "res://data/csv/campaign.hall.translation", "res://data/csv/campaign.walls.translation", "res://data/csv/campaign.loot.translation", "res://data/csv/campaign.loot.translation", "res://data/csv/campaign.loot.translation", "res://data/csv/campaign.boss.translation", "res://data/csv/campaign.first.translation", "res://data/csv/campaign.gimmick.translation", "res://data/csv/campaign.difficulty.translation", "res://data/csv/campaign.boltpost.translation", "res://data/csv/campaign.lobber.translation", "res://data/csv/campaign.skyspear.translation", "res://data/csv/campaign.arc.translation", "res://data/csv/campaign.ballista.translation", "res://data/csv/campaign.thumper.translation", "res://data/csv/campaign.frost.translation", "res://data/csv/campaign.cinder.translation", "res://data/csv/campaign.storm.translation"]
+
+source_file="res://data/csv/campaign.csv"
+dest_files=["res://data/csv/campaign.name.translation", "res://data/csv/campaign.name.translation", "res://data/csv/campaign.hall.translation", "res://data/csv/campaign.walls.translation", "res://data/csv/campaign.loot.translation", "res://data/csv/campaign.loot.translation", "res://data/csv/campaign.loot.translation", "res://data/csv/campaign.boss.translation", "res://data/csv/campaign.first.translation", "res://data/csv/campaign.gimmick.translation", "res://data/csv/campaign.difficulty.translation", "res://data/csv/campaign.boltpost.translation", "res://data/csv/campaign.lobber.translation", "res://data/csv/campaign.skyspear.translation", "res://data/csv/campaign.arc.translation", "res://data/csv/campaign.ballista.translation", "res://data/csv/campaign.thumper.translation", "res://data/csv/campaign.frost.translation", "res://data/csv/campaign.cinder.translation", "res://data/csv/campaign.storm.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://duhcdkx2rbshm"
+
+[deps]
+
+files=["res://data/csv/builders.gems.translation"]
+
+source_file="res://data/csv/builders.csv"
+dest_files=["res://data/csv/builders.gems.translation"]
+
+[params]
+
+compress=true
+delimiter=0

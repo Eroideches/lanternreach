@@ -1,0 +1,107 @@
+{
+  "missions": [
+    {
+      "id": "win_attack",
+      "metric": "attack_wins",
+      "target": 1,
+      "reward_gems": 2,
+      "reward_sap_per_hall": 0,
+      "name_key": "daily.win_attack.name"
+    },
+    {
+      "id": "earn_stars",
+      "metric": "stars_total",
+      "target": 5,
+      "reward_gems": 2,
+      "reward_sap_per_hall": 0,
+      "name_key": "daily.earn_stars.name"
+    },
+    {
+      "id": "loot_cogs",
+      "metric": "cogs_looted",
+      "target": 20000,
+      "reward_gems": 0,
+      "reward_sap_per_hall": 5000,
+      "name_key": "daily.loot_cogs.name"
+    },
+    {
+      "id": "spend_upgrade",
+      "metric": "upgrades_started",
+      "target": 2,
+      "reward_gems": 2,
+      "reward_sap_per_hall": 0,
+      "name_key": "daily.spend_upgrade.name"
+    },
+    {
+      "id": "train_troops",
+      "metric": "troops_trained",
+      "target": 30,
+      "reward_gems": 1,
+      "reward_sap_per_hall": 0,
+      "name_key": "daily.train_troops.name"
+    },
+    {
+      "id": "clear_obstacle",
+      "metric": "obstacles_cleared",
+      "target": 3,
+      "reward_gems": 3,
+      "reward_sap_per_hall": 0,
+      "name_key": "daily.clear_obstacle.name"
+    },
+    {
+      "id": "cast_spell",
+      "metric": "spells_cast",
+      "target": 3,
+      "reward_gems": 1,
+      "reward_sap_per_hall": 0,
+      "name_key": "daily.cast_spell.name"
+    },
+    {
+      "id": "destroy_defense",
+      "metric": "defenses_destroyed",
+      "target": 10,
+      "reward_gems": 2,
+      "reward_sap_per_hall": 0,
+      "name_key": "daily.destroy_defense.name"
+    }
+  ],
+  "missions_per_day": 3,
+  "login_cycle": [
+    {
+      "day": 1,
+      "reward": "cogs",
+      "amount_per_hall": 300
+    },
+    {
+      "day": 2,
+      "reward": "sap",
+      "amount_per_hall": 300
+    },
+    {
+      "day": 3,
+      "reward": "gems",
+      "amount": 3
+    },
+    {
+      "day": 4,
+      "reward": "cogs_sap",
+      "amount_per_hall": 500
+    },
+    {
+      "day": 5,
+      "reward": "gems",
+      "amount": 5
+    },
+    {
+      "day": 6,
+      "reward": "shards_or_gems",
+      "amount": 100,
+      "fallback_gems": 5
+    },
+    {
+      "day": 7,
+      "reward": "gems",
+      "amount": 15
+    }
+  ]
+}

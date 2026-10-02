@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://7s7d7mlr06bj"
+
+[deps]
+
+files=["res://data/csv/traps.level.translation", "res://data/csv/traps.req.translation", "res://data/csv/traps.cost.translation", "res://data/csv/traps.cost.translation", "res://data/csv/traps.cost.translation", "res://data/csv/traps.time.translation", "res://data/csv/traps.xp.translation", "res://data/csv/traps.trigger.translation", "res://data/csv/traps.effect.translation", "res://data/csv/traps.targets.translation", "res://data/csv/traps.effect.translation", "res://data/csv/traps.size.translation", "res://data/csv/traps.rearm.translation", "res://data/csv/traps.damage.translation", "res://data/csv/traps.launch.translation", "res://data/csv/traps.freeze.translation"]
+
+source_file="res://data/csv/traps.csv"
+dest_files=["res://data/csv/traps.level.translation", "res://data/csv/traps.req.translation", "res://data/csv/traps.cost.translation", "res://data/csv/traps.cost.translation", "res://data/csv/traps.cost.translation", "res://data/csv/traps.time.translation", "res://data/csv/traps.xp.translation", "res://data/csv/traps.trigger.translation", "res://data/csv/traps.effect.translation", "res://data/csv/traps.targets.translation", "res://data/csv/traps.effect.translation", "res://data/csv/traps.size.translation", "res://data/csv/traps.rearm.translation", "res://data/csv/traps.damage.translation", "res://data/csv/traps.launch.translation", "res://data/csv/traps.freeze.translation"]
+
+[params]
+
+compress=true
+delimiter=0

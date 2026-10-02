@@ -1,0 +1,9 @@
+id,metric,target,reward_gems,reward_sap_per_hall,name_key
+win_attack,attack_wins,1,2,0,daily.win_attack.name
+earn_stars,stars_total,5,2,0,daily.earn_stars.name
+loot_cogs,cogs_looted,20000,0,5000,daily.loot_cogs.name
+spend_upgrade,upgrades_started,2,2,0,daily.spend_upgrade.name
+train_troops,troops_trained,30,1,0,daily.train_troops.name
+clear_obstacle,obstacles_cleared,3,3,0,daily.clear_obstacle.name
+cast_spell,spells_cast,3,1,0,daily.cast_spell.name
+destroy_defense,defenses_destroyed,10,2,0,daily.destroy_defense.name

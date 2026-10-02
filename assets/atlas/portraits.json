@@ -1,0 +1,77 @@
+{
+ "pages": [
+  "portraits_0.png"
+ ],
+ "regions": {
+  "portrait/cogling": {
+   "page": 0,
+   "x": 2,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/slingwisp": {
+   "page": 0,
+   "x": 134,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/bulwark": {
+   "page": 0,
+   "x": 266,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/magpie": {
+   "page": 0,
+   "x": 398,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/kegger": {
+   "page": 0,
+   "x": 530,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/rustjaw": {
+   "page": 0,
+   "x": 662,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/kitewing": {
+   "page": 0,
+   "x": 794,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/mender": {
+   "page": 0,
+   "x": 926,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/dirigible": {
+   "page": 0,
+   "x": 1058,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  },
+  "portrait/ember_warden": {
+   "page": 0,
+   "x": 1190,
+   "y": 2,
+   "w": 128,
+   "h": 128
+  }
+ }
+}

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://uo7ssaenos4"
+
+[deps]
+
+files=["res://data/csv/hall.level.translation", "res://data/csv/hall.req.translation", "res://data/csv/hall.cost.translation", "res://data/csv/hall.cost.translation", "res://data/csv/hall.cost.translation", "res://data/csv/hall.time.translation", "res://data/csv/hall.xp.translation", "res://data/csv/hall.hp.translation", "res://data/csv/hall.stored.translation", "res://data/csv/hall.stored.translation"]
+
+source_file="res://data/csv/hall.csv"
+dest_files=["res://data/csv/hall.level.translation", "res://data/csv/hall.req.translation", "res://data/csv/hall.cost.translation", "res://data/csv/hall.cost.translation", "res://data/csv/hall.cost.translation", "res://data/csv/hall.time.translation", "res://data/csv/hall.xp.translation", "res://data/csv/hall.hp.translation", "res://data/csv/hall.stored.translation", "res://data/csv/hall.stored.translation"]
+
+[params]
+
+compress=true
+delimiter=0

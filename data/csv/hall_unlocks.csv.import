@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dslg7555anyq5"
+
+[deps]
+
+files=["res://data/csv/hall_unlocks.cog.translation", "res://data/csv/hall_unlocks.sap.translation", "res://data/csv/hall_unlocks.shard.translation", "res://data/csv/hall_unlocks.cog.translation", "res://data/csv/hall_unlocks.sap.translation", "res://data/csv/hall_unlocks.shard.translation", "res://data/csv/hall_unlocks.barracks.translation", "res://data/csv/hall_unlocks.army.translation", "res://data/csv/hall_unlocks.laboratory.translation", "res://data/csv/hall_unlocks.spell.translation", "res://data/csv/hall_unlocks.clan.translation", "res://data/csv/hall_unlocks.boltpost.translation", "res://data/csv/hall_unlocks.lobber.translation", "res://data/csv/hall_unlocks.skyspear.translation", "res://data/csv/hall_unlocks.arc.translation", "res://data/csv/hall_unlocks.ballista.translation", "res://data/csv/hall_unlocks.thumper.translation", "res://data/csv/hall_unlocks.frost.translation", "res://data/csv/hall_unlocks.cinder.translation", "res://data/csv/hall_unlocks.storm.translation", "res://data/csv/hall_unlocks.wall.translation", "res://data/csv/hall_unlocks.bomb.translation", "res://data/csv/hall_unlocks.spring.translation", "res://data/csv/hall_unlocks.snare.translation", "res://data/csv/hall_unlocks.air.translation"]
+
+source_file="res://data/csv/hall_unlocks.csv"
+dest_files=["res://data/csv/hall_unlocks.cog.translation", "res://data/csv/hall_unlocks.sap.translation", "res://data/csv/hall_unlocks.shard.translation", "res://data/csv/hall_unlocks.cog.translation", "res://data/csv/hall_unlocks.sap.translation", "res://data/csv/hall_unlocks.shard.translation", "res://data/csv/hall_unlocks.barracks.translation", "res://data/csv/hall_unlocks.army.translation", "res://data/csv/hall_unlocks.laboratory.translation", "res://data/csv/hall_unlocks.spell.translation", "res://data/csv/hall_unlocks.clan.translation", "res://data/csv/hall_unlocks.boltpost.translation", "res://data/csv/hall_unlocks.lobber.translation", "res://data/csv/hall_unlocks.skyspear.translation", "res://data/csv/hall_unlocks.arc.translation", "res://data/csv/hall_unlocks.ballista.translation", "res://data/csv/hall_unlocks.thumper.translation", "res://data/csv/hall_unlocks.frost.translation", "res://data/csv/hall_unlocks.cinder.translation", "res://data/csv/hall_unlocks.storm.translation", "res://data/csv/hall_unlocks.wall.translation", "res://data/csv/hall_unlocks.bomb.translation", "res://data/csv/hall_unlocks.spring.translation", "res://data/csv/hall_unlocks.snare.translation", "res://data/csv/hall_unlocks.air.translation"]
+
+[params]
+
+compress=true
+delimiter=0

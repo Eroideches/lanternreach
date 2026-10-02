@@ -1,0 +1,471 @@
+[gd_resource type="Theme" load_steps=34 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/Nunito-Variable.ttf" id="font_body"]
+[ext_resource type="FontFile" path="res://assets/fonts/LilitaOne-Regular.ttf" id="font_title"]
+[ext_resource type="Texture2D" path="res://assets/atlas/ui_0.png" id="ui_0"]
+[sub_resource type="StyleBoxTexture" id="btn_n"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(502, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="btn_h"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(502, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="btn_p"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(602, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 20.0
+content_margin_right = 24.0
+content_margin_bottom = 18.0
+
+[sub_resource type="StyleBoxTexture" id="btn_d"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(502, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxEmpty" id="empty"]
+
+[sub_resource type="StyleBoxTexture" id="panel"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(2, 2, 96, 96)
+texture_margin_left = 30.0
+texture_margin_top = 30.0
+texture_margin_right = 30.0
+texture_margin_bottom = 30.0
+content_margin_left = 28.0
+content_margin_top = 26.0
+content_margin_right = 28.0
+content_margin_bottom = 30.0
+
+[sub_resource type="StyleBoxTexture" id="panel2"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(2, 2, 96, 96)
+texture_margin_left = 30.0
+texture_margin_top = 30.0
+texture_margin_right = 30.0
+texture_margin_bottom = 30.0
+content_margin_left = 28.0
+content_margin_top = 26.0
+content_margin_right = 28.0
+content_margin_bottom = 30.0
+
+[sub_resource type="StyleBoxTexture" id="panel3"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(2, 2, 96, 96)
+texture_margin_left = 30.0
+texture_margin_top = 30.0
+texture_margin_right = 30.0
+texture_margin_bottom = 30.0
+content_margin_left = 28.0
+content_margin_top = 26.0
+content_margin_right = 28.0
+content_margin_bottom = 30.0
+
+[sub_resource type="StyleBoxTexture" id="bar_bg"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(318, 194, 80, 36)
+texture_margin_left = 18.0
+texture_margin_top = 18.0
+texture_margin_right = 18.0
+texture_margin_bottom = 18.0
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxTexture" id="bar_fill"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(570, 194, 80, 36)
+texture_margin_left = 18.0
+texture_margin_top = 18.0
+texture_margin_right = 18.0
+texture_margin_bottom = 18.0
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxTexture" id="tip"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(70, 194, 120, 56)
+texture_margin_left = 28.0
+texture_margin_top = 28.0
+texture_margin_right = 28.0
+texture_margin_bottom = 28.0
+content_margin_left = 20.0
+content_margin_top = 10.0
+content_margin_right = 20.0
+content_margin_bottom = 12.0
+
+[sub_resource type="StyleBoxTexture" id="le"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(2, 194, 64, 64)
+texture_margin_left = 18.0
+texture_margin_top = 18.0
+texture_margin_right = 18.0
+texture_margin_bottom = 18.0
+content_margin_left = 16.0
+content_margin_top = 10.0
+content_margin_right = 16.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="tabp"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(2, 2, 96, 96)
+texture_margin_left = 30.0
+texture_margin_top = 30.0
+texture_margin_right = 30.0
+texture_margin_bottom = 30.0
+content_margin_left = 24.0
+content_margin_top = 24.0
+content_margin_right = 24.0
+content_margin_bottom = 28.0
+
+[sub_resource type="StyleBoxTexture" id="tabs"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(102, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 22.0
+content_margin_top = 10.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+
+[sub_resource type="StyleBoxTexture" id="tabu"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(702, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 22.0
+content_margin_top = 10.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+
+[sub_resource type="StyleBoxTexture" id="bbluen"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(702, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bblueh"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(702, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bbluep"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(802, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 20.0
+content_margin_right = 24.0
+content_margin_bottom = 18.0
+
+[sub_resource type="StyleBoxTexture" id="bredn"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(902, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bredh"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(902, 2, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bredp"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(2, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 20.0
+content_margin_right = 24.0
+content_margin_bottom = 18.0
+
+[sub_resource type="StyleBoxTexture" id="bgoldn"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(102, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bgoldh"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(102, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bgoldp"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(202, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 20.0
+content_margin_right = 24.0
+content_margin_bottom = 18.0
+
+[sub_resource type="StyleBoxTexture" id="bpurplen"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(302, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bpurpleh"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(302, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 14.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="bpurplep"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(402, 102, 96, 88)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 24.0
+content_margin_top = 20.0
+content_margin_right = 24.0
+content_margin_bottom = 18.0
+
+[sub_resource type="StyleBoxTexture" id="pdark"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(102, 2, 96, 96)
+texture_margin_left = 30.0
+texture_margin_top = 30.0
+texture_margin_right = 30.0
+texture_margin_bottom = 30.0
+content_margin_left = 28.0
+content_margin_top = 26.0
+content_margin_right = 28.0
+content_margin_bottom = 30.0
+
+[sub_resource type="StyleBoxTexture" id="resbar"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(194, 194, 120, 52)
+texture_margin_left = 26.0
+texture_margin_top = 26.0
+texture_margin_right = 26.0
+texture_margin_bottom = 26.0
+content_margin_left = 64.0
+content_margin_top = 6.0
+content_margin_right = 20.0
+content_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxTexture" id="slot"]
+texture = ExtResource("ui_0")
+region_rect = Rect2(202, 2, 96, 96)
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+content_margin_left = 10.0
+content_margin_top = 10.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+
+[resource]
+default_font = ExtResource("font_body")
+default_font_size = 30
+Button/styles/normal = SubResource("btn_n")
+Button/styles/hover = SubResource("btn_h")
+Button/styles/pressed = SubResource("btn_p")
+Button/styles/disabled = SubResource("btn_d")
+Button/styles/focus = SubResource("empty")
+Button/fonts/font = ExtResource("font_title")
+Button/font_sizes/font_size = 34
+Button/colors/font_color = Color(1, 0.97, 0.91, 1)
+Button/colors/font_pressed_color = Color(1, 0.97, 0.91, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(0.36, 0.33, 0.42, 1)
+Button/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+Button/constants/outline_size = 8
+PanelContainer/styles/panel = SubResource("panel")
+Panel/styles/panel = SubResource("panel2")
+PopupPanel/styles/panel = SubResource("panel3")
+ProgressBar/styles/background = SubResource("bar_bg")
+ProgressBar/styles/fill = SubResource("bar_fill")
+ProgressBar/fonts/font = ExtResource("font_title")
+ProgressBar/font_sizes/font_size = 24
+ProgressBar/colors/font_color = Color(1, 1, 1, 1)
+ProgressBar/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+ProgressBar/constants/outline_size = 6
+Label/colors/font_color = Color(0.18, 0.125, 0.21, 1)
+Label/font_sizes/font_size = 30
+TooltipPanel/styles/panel = SubResource("tip")
+TooltipLabel/colors/font_color = Color(1, 0.97, 0.91, 1)
+LineEdit/styles/normal = SubResource("le")
+LineEdit/colors/font_color = Color(0.18, 0.125, 0.21, 1)
+LineEdit/font_sizes/font_size = 30
+TabContainer/styles/panel = SubResource("tabp")
+TabContainer/styles/tab_selected = SubResource("tabs")
+TabContainer/styles/tab_unselected = SubResource("tabu")
+TabContainer/fonts/font = ExtResource("font_title")
+TabContainer/font_sizes/font_size = 28
+TabContainer/colors/font_selected_color = Color(1, 0.97, 0.91, 1)
+TabContainer/colors/font_unselected_color = Color(1, 0.97, 0.91, 1)
+TabContainer/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+TabContainer/constants/outline_size = 6
+TitleLabel/base_type = &"Label"
+TitleLabel/fonts/font = ExtResource("font_title")
+TitleLabel/font_sizes/font_size = 48
+TitleLabel/colors/font_color = Color(1, 0.97, 0.91, 1)
+TitleLabel/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+TitleLabel/constants/outline_size = 12
+HudLabel/base_type = &"Label"
+HudLabel/fonts/font = ExtResource("font_title")
+HudLabel/font_sizes/font_size = 34
+HudLabel/colors/font_color = Color(1, 1, 1, 1)
+HudLabel/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+HudLabel/constants/outline_size = 10
+ButtonBlue/base_type = &"Button"
+ButtonBlue/styles/normal = SubResource("bbluen")
+ButtonBlue/styles/hover = SubResource("bblueh")
+ButtonBlue/styles/pressed = SubResource("bbluep")
+ButtonBlue/fonts/font = ExtResource("font_title")
+ButtonBlue/font_sizes/font_size = 34
+ButtonBlue/colors/font_color = Color(1, 0.97, 0.91, 1)
+ButtonBlue/colors/font_pressed_color = Color(1, 0.97, 0.91, 1)
+ButtonBlue/colors/font_hover_color = Color(1, 1, 1, 1)
+ButtonBlue/colors/font_disabled_color = Color(0.36, 0.33, 0.42, 1)
+ButtonBlue/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+ButtonBlue/constants/outline_size = 8
+ButtonBlue/styles/disabled = SubResource("btn_d")
+ButtonBlue/styles/focus = SubResource("empty")
+ButtonRed/base_type = &"Button"
+ButtonRed/styles/normal = SubResource("bredn")
+ButtonRed/styles/hover = SubResource("bredh")
+ButtonRed/styles/pressed = SubResource("bredp")
+ButtonRed/fonts/font = ExtResource("font_title")
+ButtonRed/font_sizes/font_size = 34
+ButtonRed/colors/font_color = Color(1, 0.97, 0.91, 1)
+ButtonRed/colors/font_pressed_color = Color(1, 0.97, 0.91, 1)
+ButtonRed/colors/font_hover_color = Color(1, 1, 1, 1)
+ButtonRed/colors/font_disabled_color = Color(0.36, 0.33, 0.42, 1)
+ButtonRed/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+ButtonRed/constants/outline_size = 8
+ButtonRed/styles/disabled = SubResource("btn_d")
+ButtonRed/styles/focus = SubResource("empty")
+ButtonGold/base_type = &"Button"
+ButtonGold/styles/normal = SubResource("bgoldn")
+ButtonGold/styles/hover = SubResource("bgoldh")
+ButtonGold/styles/pressed = SubResource("bgoldp")
+ButtonGold/fonts/font = ExtResource("font_title")
+ButtonGold/font_sizes/font_size = 34
+ButtonGold/colors/font_color = Color(1, 0.97, 0.91, 1)
+ButtonGold/colors/font_pressed_color = Color(1, 0.97, 0.91, 1)
+ButtonGold/colors/font_hover_color = Color(1, 1, 1, 1)
+ButtonGold/colors/font_disabled_color = Color(0.36, 0.33, 0.42, 1)
+ButtonGold/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+ButtonGold/constants/outline_size = 8
+ButtonGold/styles/disabled = SubResource("btn_d")
+ButtonGold/styles/focus = SubResource("empty")
+ButtonPurple/base_type = &"Button"
+ButtonPurple/styles/normal = SubResource("bpurplen")
+ButtonPurple/styles/hover = SubResource("bpurpleh")
+ButtonPurple/styles/pressed = SubResource("bpurplep")
+ButtonPurple/fonts/font = ExtResource("font_title")
+ButtonPurple/font_sizes/font_size = 34
+ButtonPurple/colors/font_color = Color(1, 0.97, 0.91, 1)
+ButtonPurple/colors/font_pressed_color = Color(1, 0.97, 0.91, 1)
+ButtonPurple/colors/font_hover_color = Color(1, 1, 1, 1)
+ButtonPurple/colors/font_disabled_color = Color(0.36, 0.33, 0.42, 1)
+ButtonPurple/colors/font_outline_color = Color(0.18, 0.125, 0.21, 1)
+ButtonPurple/constants/outline_size = 8
+ButtonPurple/styles/disabled = SubResource("btn_d")
+ButtonPurple/styles/focus = SubResource("empty")
+PanelDark/base_type = &"PanelContainer"
+PanelDark/styles/panel = SubResource("pdark")
+ResourceBar/base_type = &"PanelContainer"
+ResourceBar/styles/panel = SubResource("resbar")
+Slot/base_type = &"PanelContainer"
+Slot/styles/panel = SubResource("slot")

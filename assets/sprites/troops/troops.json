@@ -1,0 +1,492 @@
+{
+ "cogling": {
+  "frame": [
+   128,
+   128
+  ],
+  "origin": [
+   64,
+   112
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": false
+ },
+ "slingwisp": {
+  "frame": [
+   128,
+   128
+  ],
+  "origin": [
+   64,
+   112
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": false
+ },
+ "bulwark": {
+  "frame": [
+   192,
+   176
+  ],
+  "origin": [
+   96,
+   154
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": false
+ },
+ "magpie": {
+  "frame": [
+   144,
+   128
+  ],
+  "origin": [
+   72,
+   112
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": false
+ },
+ "kegger": {
+  "frame": [
+   128,
+   128
+  ],
+  "origin": [
+   64,
+   112
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": false
+ },
+ "rustjaw": {
+  "frame": [
+   176,
+   144
+  ],
+  "origin": [
+   88,
+   126
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": false
+ },
+ "kitewing": {
+  "frame": [
+   144,
+   176
+  ],
+  "origin": [
+   72,
+   120
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": true
+ },
+ "mender": {
+  "frame": [
+   160,
+   190
+  ],
+  "origin": [
+   80,
+   142
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": true
+ },
+ "dirigible": {
+  "frame": [
+   256,
+   192
+  ],
+  "origin": [
+   128,
+   124
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": true
+ },
+ "ember_warden": {
+  "frame": [
+   176,
+   232
+  ],
+  "origin": [
+   88,
+   216
+  ],
+  "rows": {
+   "walk_down": {
+    "row": 0,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_down": {
+    "row": 1,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_down": {
+    "row": 2,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   },
+   "walk_up": {
+    "row": 3,
+    "frames": 6,
+    "fps": 12,
+    "loop": true
+   },
+   "attack_up": {
+    "row": 4,
+    "frames": 4,
+    "fps": 10,
+    "loop": false
+   },
+   "death_up": {
+    "row": 5,
+    "frames": 4,
+    "fps": 8,
+    "loop": false
+   }
+  },
+  "flying": false
+ }
+}

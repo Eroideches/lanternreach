@@ -1,0 +1,3661 @@
+{
+ "pages": [
+  "buildings_gloom_0.png",
+  "buildings_gloom_1.png",
+  "buildings_gloom_2.png",
+  "buildings_gloom_3.png",
+  "buildings_gloom_4.png"
+ ],
+ "regions": {
+  "lantern_hall/t5": {
+   "page": 0,
+   "x": 2,
+   "y": 2,
+   "w": 593,
+   "h": 597,
+   "anchor": [
+    296.0,
+    429.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -224.9
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -417.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "beam",
+     "pos": [
+      0.0,
+      -273.2
+     ],
+     "r": 70
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      140.8,
+      -70.9
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      179.2,
+      -135.3
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -179.2,
+      -135.3
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -45.7
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -111.5
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      185.6,
+      -111.5
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "lantern_hall/t4": {
+   "page": 0,
+   "x": 599,
+   "y": 2,
+   "w": 593,
+   "h": 568,
+   "anchor": [
+    296.0,
+    400.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -214.6
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -388.4
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "beam",
+     "pos": [
+      0.0,
+      -253.1
+     ],
+     "r": 70
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      140.8,
+      -65.2
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      179.2,
+      -125.0
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -179.2,
+      -125.0
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -35.4
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -102.6
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      185.6,
+      -102.6
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "lantern_hall/t3": {
+   "page": 0,
+   "x": 1196,
+   "y": 2,
+   "w": 593,
+   "h": 539,
+   "anchor": [
+    296.0,
+    371.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -359.6
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "beam",
+     "pos": [
+      0.0,
+      -233.1
+     ],
+     "r": 70
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      140.8,
+      -59.6
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -93.8
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      185.6,
+      -93.8
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "lantern_hall/t2": {
+   "page": 0,
+   "x": 2,
+   "y": 603,
+   "w": 593,
+   "h": 510,
+   "anchor": [
+    296.0,
+    342.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -330.8
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "beam",
+     "pos": [
+      0.0,
+      -213.0
+     ],
+     "r": 70
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -84.9
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      185.6,
+      -84.9
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "storm_pylon/t5": {
+   "page": 0,
+   "x": 599,
+   "y": 603,
+   "w": 465,
+   "h": 504,
+   "anchor": [
+    232.0,
+    368.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -264.0
+     ],
+     "color": "#E8419A",
+     "big": true
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "storm_pylon/t4": {
+   "page": 0,
+   "x": 1068,
+   "y": 603,
+   "w": 465,
+   "h": 486,
+   "anchor": [
+    232.0,
+    350.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -246.0
+     ],
+     "color": "#E8419A",
+     "big": true
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "storm_pylon/t3": {
+   "page": 0,
+   "x": 1537,
+   "y": 603,
+   "w": 465,
+   "h": 468,
+   "anchor": [
+    232.0,
+    332.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -228.0
+     ],
+     "color": "#E8419A",
+     "big": true
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "lantern_hall/t1": {
+   "page": 0,
+   "x": 2,
+   "y": 1117,
+   "w": 593,
+   "h": 466,
+   "anchor": [
+    296.0,
+    298.0
+   ],
+   "overlays": [
+    {
+     "kind": "beam",
+     "pos": [
+      0.0,
+      -193.0
+     ],
+     "r": 70
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -76.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "storm_pylon/t2": {
+   "page": 0,
+   "x": 599,
+   "y": 1117,
+   "w": 465,
+   "h": 450,
+   "anchor": [
+    232.0,
+    314.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -210.0
+     ],
+     "color": "#E8419A",
+     "big": true
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "construction/4": {
+   "page": 0,
+   "x": 1068,
+   "y": 1117,
+   "w": 593,
+   "h": 433,
+   "anchor": [
+    296.0,
+    265.0
+   ],
+   "overlays": [
+    {
+     "kind": "dust",
+     "pos": [
+      0.0,
+      -30.0
+     ]
+    }
+   ],
+   "footprint": 4
+  },
+  "storm_pylon/t1": {
+   "page": 0,
+   "x": 2,
+   "y": 1587,
+   "w": 465,
+   "h": 432,
+   "anchor": [
+    232.0,
+    296.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -192.0
+     ],
+     "color": "#E8419A",
+     "big": true
+    }
+   ],
+   "footprint": 3
+  },
+  "clan_hall/t5": {
+   "page": 0,
+   "x": 471,
+   "y": 1587,
+   "w": 593,
+   "h": 414,
+   "anchor": [
+    296.0,
+    246.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -127.0
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      192.0,
+      -98.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -131.2,
+      -30.6
+     ],
+     "small": true
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -28.8,
+      20.6
+     ],
+     "small": true
+    }
+   ],
+   "footprint": 4
+  },
+  "skyspear/t5": {
+   "page": 0,
+   "x": 1068,
+   "y": 1587,
+   "w": 337,
+   "h": 414,
+   "anchor": [
+    168.0,
+    310.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -247.3
+     ],
+     "shift": [
+      32,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "skyspear/t4": {
+   "page": 0,
+   "x": 1409,
+   "y": 1587,
+   "w": 337,
+   "h": 403,
+   "anchor": [
+    168.0,
+    299.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -237.0
+     ],
+     "shift": [
+      32,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "clan_hall/t4": {
+   "page": 1,
+   "x": 2,
+   "y": 2,
+   "w": 593,
+   "h": 400,
+   "anchor": [
+    296.0,
+    232.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -127.0
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      192.0,
+      -98.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -131.2,
+      -30.6
+     ],
+     "small": true
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -28.8,
+      20.6
+     ],
+     "small": true
+    }
+   ],
+   "footprint": 4
+  },
+  "spell_forge/t5": {
+   "page": 1,
+   "x": 599,
+   "y": 2,
+   "w": 465,
+   "h": 396,
+   "anchor": [
+    232.0,
+    260.0
+   ],
+   "overlays": [
+    {
+     "kind": "orb",
+     "pos": [
+      0.0,
+      -179.8
+     ],
+     "color": "#A06BFF"
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -76.2
+     ],
+     "color": "#A06BFF"
+    }
+   ],
+   "footprint": 3
+  },
+  "skyspear/t3": {
+   "page": 1,
+   "x": 1068,
+   "y": 2,
+   "w": 337,
+   "h": 393,
+   "anchor": [
+    168.0,
+    289.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -226.6
+     ],
+     "shift": [
+      32,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "laboratory/t5": {
+   "page": 1,
+   "x": 1409,
+   "y": 2,
+   "w": 593,
+   "h": 392,
+   "anchor": [
+    296.0,
+    224.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      108.8,
+      -116.6
+     ]
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -170.0
+     ],
+     "color": "#4DE3F5"
+    }
+   ],
+   "footprint": 4
+  },
+  "clan_hall/t3": {
+   "page": 1,
+   "x": 2,
+   "y": 406,
+   "w": 593,
+   "h": 386,
+   "anchor": [
+    296.0,
+    218.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -127.0
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      192.0,
+      -98.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -131.2,
+      -30.6
+     ],
+     "small": true
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -28.8,
+      20.6
+     ],
+     "small": true
+    }
+   ],
+   "footprint": 4
+  },
+  "skyspear/t2": {
+   "page": 1,
+   "x": 599,
+   "y": 406,
+   "w": 337,
+   "h": 383,
+   "anchor": [
+    168.0,
+    279.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -216.3
+     ],
+     "shift": [
+      32,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "laboratory/t4": {
+   "page": 1,
+   "x": 940,
+   "y": 406,
+   "w": 593,
+   "h": 382,
+   "anchor": [
+    296.0,
+    214.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      108.8,
+      -104.6
+     ]
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -163.7
+     ],
+     "color": "#4DE3F5"
+    }
+   ],
+   "footprint": 4
+  },
+  "spell_forge/t4": {
+   "page": 1,
+   "x": 1537,
+   "y": 406,
+   "w": 465,
+   "h": 382,
+   "anchor": [
+    232.0,
+    246.0
+   ],
+   "overlays": [
+    {
+     "kind": "orb",
+     "pos": [
+      0.0,
+      -166.6
+     ],
+     "color": "#C9A8FF"
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -71.4
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 3
+  },
+  "laboratory/t3": {
+   "page": 1,
+   "x": 2,
+   "y": 796,
+   "w": 593,
+   "h": 372,
+   "anchor": [
+    296.0,
+    204.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      108.8,
+      -92.6
+     ]
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -157.5
+     ],
+     "color": "#4DE3F5"
+    }
+   ],
+   "footprint": 4
+  },
+  "clan_hall/t2": {
+   "page": 1,
+   "x": 599,
+   "y": 796,
+   "w": 593,
+   "h": 372,
+   "anchor": [
+    296.0,
+    204.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -127.0
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      192.0,
+      -98.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -131.2,
+      -30.6
+     ],
+     "small": true
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -28.8,
+      20.6
+     ],
+     "small": true
+    }
+   ],
+   "footprint": 4
+  },
+  "skyspear/t1": {
+   "page": 1,
+   "x": 1196,
+   "y": 796,
+   "w": 337,
+   "h": 372,
+   "anchor": [
+    168.0,
+    268.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -206.0
+     ],
+     "shift": [
+      32,
+      0
+     ]
+    }
+   ],
+   "footprint": 2
+  },
+  "spell_forge/t3": {
+   "page": 1,
+   "x": 1537,
+   "y": 796,
+   "w": 465,
+   "h": 368,
+   "anchor": [
+    232.0,
+    232.0
+   ],
+   "overlays": [
+    {
+     "kind": "orb",
+     "pos": [
+      0.0,
+      -153.4
+     ],
+     "color": "#C9A8FF"
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -66.6
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 3
+  },
+  "thumper/t5": {
+   "page": 1,
+   "x": 2,
+   "y": 1172,
+   "w": 465,
+   "h": 364,
+   "anchor": [
+    232.0,
+    228.0
+   ],
+   "overlays": [
+    {
+     "kind": "impact",
+     "pos": [
+      -41.6,
+      -70.8
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "barracks/t5": {
+   "page": 1,
+   "x": 471,
+   "y": 1172,
+   "w": 465,
+   "h": 362,
+   "anchor": [
+    232.0,
+    226.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      6.4,
+      -20.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -150.4,
+      -98.6
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "laboratory/t2": {
+   "page": 1,
+   "x": 940,
+   "y": 1172,
+   "w": 593,
+   "h": 361,
+   "anchor": [
+    296.0,
+    193.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      108.8,
+      -80.6
+     ]
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -151.2
+     ],
+     "color": "#4DE3F5"
+    }
+   ],
+   "footprint": 4
+  },
+  "clan_hall/t1": {
+   "page": 1,
+   "x": 2,
+   "y": 1540,
+   "w": 593,
+   "h": 357,
+   "anchor": [
+    296.0,
+    189.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      -185.6,
+      -127.0
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      192.0,
+      -98.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -131.2,
+      -30.6
+     ],
+     "small": true
+    },
+    {
+     "kind": "fire",
+     "pos": [
+      -28.8,
+      20.6
+     ],
+     "small": true
+    }
+   ],
+   "footprint": 4
+  },
+  "ballista/t5": {
+   "page": 1,
+   "x": 599,
+   "y": 1540,
+   "w": 465,
+   "h": 357,
+   "anchor": [
+    232.0,
+    221.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -194.5
+     ],
+     "shift": [
+      70,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "arc_coil/t5": {
+   "page": 1,
+   "x": 1068,
+   "y": 1540,
+   "w": 337,
+   "h": 356,
+   "anchor": [
+    168.0,
+    252.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -148.3
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "lobber/t5": {
+   "page": 1,
+   "x": 1409,
+   "y": 1540,
+   "w": 465,
+   "h": 355,
+   "anchor": [
+    232.0,
+    219.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -176.3
+     ],
+     "shift": [
+      56,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "barracks/t4": {
+   "page": 2,
+   "x": 2,
+   "y": 2,
+   "w": 465,
+   "h": 354,
+   "anchor": [
+    232.0,
+    218.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      6.4,
+      -20.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -150.4,
+      -98.6
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "ballista/t4": {
+   "page": 2,
+   "x": 471,
+   "y": 2,
+   "w": 465,
+   "h": 354,
+   "anchor": [
+    232.0,
+    218.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -191.4
+     ],
+     "shift": [
+      70,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "spell_forge/t2": {
+   "page": 2,
+   "x": 940,
+   "y": 2,
+   "w": 465,
+   "h": 353,
+   "anchor": [
+    232.0,
+    217.0
+   ],
+   "overlays": [
+    {
+     "kind": "orb",
+     "pos": [
+      0.0,
+      -140.2
+     ],
+     "color": "#C9A8FF"
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -61.8
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 3
+  },
+  "laboratory/t1": {
+   "page": 2,
+   "x": 1409,
+   "y": 2,
+   "w": 593,
+   "h": 351,
+   "anchor": [
+    296.0,
+    183.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      108.8,
+      -68.6
+     ]
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -145.0
+     ],
+     "color": "#4DE3F5"
+    }
+   ],
+   "footprint": 4
+  },
+  "ballista/t3": {
+   "page": 2,
+   "x": 2,
+   "y": 360,
+   "w": 465,
+   "h": 351,
+   "anchor": [
+    232.0,
+    215.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -188.2
+     ],
+     "shift": [
+      70,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "ballista/t2": {
+   "page": 2,
+   "x": 471,
+   "y": 360,
+   "w": 465,
+   "h": 348,
+   "anchor": [
+    232.0,
+    212.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -185.1
+     ],
+     "shift": [
+      70,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "thumper/t4": {
+   "page": 2,
+   "x": 940,
+   "y": 360,
+   "w": 465,
+   "h": 348,
+   "anchor": [
+    232.0,
+    212.0
+   ],
+   "overlays": [
+    {
+     "kind": "impact",
+     "pos": [
+      -41.6,
+      -66.0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "army_camp/t5": {
+   "page": 2,
+   "x": 1409,
+   "y": 360,
+   "w": 593,
+   "h": 347,
+   "anchor": [
+    296.0,
+    179.0
+   ],
+   "overlays": [
+    {
+     "kind": "fire",
+     "pos": [
+      0.0,
+      -12.0
+     ]
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      0.0,
+      -60.0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      12.4
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "barracks/t3": {
+   "page": 2,
+   "x": 2,
+   "y": 715,
+   "w": 465,
+   "h": 347,
+   "anchor": [
+    232.0,
+    211.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      6.4,
+      -20.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -150.4,
+      -98.6
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "frost_spire/t5": {
+   "page": 2,
+   "x": 471,
+   "y": 715,
+   "w": 337,
+   "h": 347,
+   "anchor": [
+    168.0,
+    243.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -90.0
+     ],
+     "color": "#E9F8FF"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "arc_coil/t4": {
+   "page": 2,
+   "x": 812,
+   "y": 715,
+   "w": 337,
+   "h": 346,
+   "anchor": [
+    168.0,
+    242.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -138.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "lobber/t4": {
+   "page": 2,
+   "x": 1153,
+   "y": 715,
+   "w": 465,
+   "h": 345,
+   "anchor": [
+    232.0,
+    209.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -166.2
+     ],
+     "shift": [
+      56,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "boltpost/t5": {
+   "page": 2,
+   "x": 1622,
+   "y": 715,
+   "w": 337,
+   "h": 345,
+   "anchor": [
+    168.0,
+    241.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -167.4
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "ballista/t1": {
+   "page": 2,
+   "x": 2,
+   "y": 1066,
+   "w": 465,
+   "h": 344,
+   "anchor": [
+    232.0,
+    208.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -182.0
+     ],
+     "shift": [
+      70,
+      0
+     ]
+    }
+   ],
+   "footprint": 3
+  },
+  "construction/3": {
+   "page": 2,
+   "x": 471,
+   "y": 1066,
+   "w": 465,
+   "h": 343,
+   "anchor": [
+    232.0,
+    207.0
+   ],
+   "overlays": [
+    {
+     "kind": "dust",
+     "pos": [
+      0.0,
+      -30.0
+     ]
+    }
+   ],
+   "footprint": 3
+  },
+  "army_camp/t4": {
+   "page": 2,
+   "x": 940,
+   "y": 1066,
+   "w": 593,
+   "h": 341,
+   "anchor": [
+    296.0,
+    173.0
+   ],
+   "overlays": [
+    {
+     "kind": "fire",
+     "pos": [
+      0.0,
+      -12.0
+     ]
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      0.0,
+      -60.0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      12.4
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "spell_forge/t1": {
+   "page": 2,
+   "x": 1537,
+   "y": 1066,
+   "w": 465,
+   "h": 339,
+   "anchor": [
+    232.0,
+    203.0
+   ],
+   "overlays": [
+    {
+     "kind": "orb",
+     "pos": [
+      0.0,
+      -127.0
+     ],
+     "color": "#C9A8FF"
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -57.0
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 3
+  },
+  "cog_vault/t5": {
+   "page": 2,
+   "x": 2,
+   "y": 1414,
+   "w": 465,
+   "h": 336,
+   "anchor": [
+    232.0,
+    200.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -7.8
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "lobber/t3": {
+   "page": 2,
+   "x": 471,
+   "y": 1414,
+   "w": 465,
+   "h": 336,
+   "anchor": [
+    232.0,
+    200.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -156.2
+     ],
+     "shift": [
+      56,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "arc_coil/t3": {
+   "page": 2,
+   "x": 940,
+   "y": 1414,
+   "w": 337,
+   "h": 336,
+   "anchor": [
+    168.0,
+    232.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -128.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "army_camp/t3": {
+   "page": 2,
+   "x": 1281,
+   "y": 1414,
+   "w": 593,
+   "h": 335,
+   "anchor": [
+    296.0,
+    167.0
+   ],
+   "overlays": [
+    {
+     "kind": "fire",
+     "pos": [
+      0.0,
+      -12.0
+     ]
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      0.0,
+      -60.0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      12.4
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 4
+  },
+  "thumper/t3": {
+   "page": 3,
+   "x": 2,
+   "y": 2,
+   "w": 465,
+   "h": 332,
+   "anchor": [
+    232.0,
+    196.0
+   ],
+   "overlays": [
+    {
+     "kind": "impact",
+     "pos": [
+      -41.6,
+      -61.2
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "army_camp/t2": {
+   "page": 3,
+   "x": 471,
+   "y": 2,
+   "w": 593,
+   "h": 329,
+   "anchor": [
+    296.0,
+    161.0
+   ],
+   "overlays": [
+    {
+     "kind": "fire",
+     "pos": [
+      0.0,
+      -12.0
+     ]
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      0.0,
+      -60.0
+     ]
+    }
+   ],
+   "footprint": 4
+  },
+  "cog_vault/t4": {
+   "page": 3,
+   "x": 1068,
+   "y": 2,
+   "w": 465,
+   "h": 328,
+   "anchor": [
+    232.0,
+    192.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -7.8
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "lobber/t2": {
+   "page": 3,
+   "x": 1537,
+   "y": 2,
+   "w": 465,
+   "h": 326,
+   "anchor": [
+    232.0,
+    190.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -146.1
+     ],
+     "shift": [
+      56,
+      0
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "arc_coil/t2": {
+   "page": 3,
+   "x": 2,
+   "y": 338,
+   "w": 337,
+   "h": 326,
+   "anchor": [
+    168.0,
+    222.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -118.1
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "army_camp/t1": {
+   "page": 3,
+   "x": 343,
+   "y": 338,
+   "w": 593,
+   "h": 323,
+   "anchor": [
+    296.0,
+    155.0
+   ],
+   "overlays": [
+    {
+     "kind": "fire",
+     "pos": [
+      0.0,
+      -12.0
+     ]
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      0.0,
+      -60.0
+     ]
+    }
+   ],
+   "footprint": 4
+  },
+  "boltpost/t4": {
+   "page": 3,
+   "x": 940,
+   "y": 338,
+   "w": 337,
+   "h": 322,
+   "anchor": [
+    168.0,
+    218.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -158.1
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "cog_vault/t3": {
+   "page": 3,
+   "x": 1281,
+   "y": 338,
+   "w": 465,
+   "h": 320,
+   "anchor": [
+    232.0,
+    184.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      0.0,
+      -7.8
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "sap_cistern/t5": {
+   "page": 3,
+   "x": 2,
+   "y": 668,
+   "w": 465,
+   "h": 319,
+   "anchor": [
+    232.0,
+    183.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -156.5
+     ],
+     "color": "#3FD17C"
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      83.2,
+      -108.5
+     ],
+     "color": "#3FD17C"
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      -35.2,
+      -118.0
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 3
+  },
+  "lobber/t1": {
+   "page": 3,
+   "x": 471,
+   "y": 668,
+   "w": 465,
+   "h": 317,
+   "anchor": [
+    232.0,
+    181.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -136.0
+     ],
+     "shift": [
+      56,
+      0
+     ]
+    }
+   ],
+   "footprint": 3
+  },
+  "frost_spire/t4": {
+   "page": 3,
+   "x": 940,
+   "y": 668,
+   "w": 337,
+   "h": 317,
+   "anchor": [
+    168.0,
+    213.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -90.0
+     ],
+     "color": "#E9F8FF"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "arc_coil/t1": {
+   "page": 3,
+   "x": 1281,
+   "y": 668,
+   "w": 337,
+   "h": 316,
+   "anchor": [
+    168.0,
+    212.0
+   ],
+   "overlays": [
+    {
+     "kind": "arc",
+     "pos": [
+      0.0,
+      -108.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "thumper/t2": {
+   "page": 3,
+   "x": 2,
+   "y": 991,
+   "w": 465,
+   "h": 315,
+   "anchor": [
+    232.0,
+    179.0
+   ],
+   "overlays": [
+    {
+     "kind": "impact",
+     "pos": [
+      -41.6,
+      -56.4
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -163.8,
+      -80.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "boltpost/t3": {
+   "page": 3,
+   "x": 471,
+   "y": 991,
+   "w": 337,
+   "h": 313,
+   "anchor": [
+    168.0,
+    209.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -148.7
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "cog_vault/t2": {
+   "page": 3,
+   "x": 812,
+   "y": 991,
+   "w": 465,
+   "h": 312,
+   "anchor": [
+    232.0,
+    176.0
+   ],
+   "overlays": [],
+   "footprint": 3
+  },
+  "shard_drill/t5": {
+   "page": 3,
+   "x": 1281,
+   "y": 991,
+   "w": 337,
+   "h": 312,
+   "anchor": [
+    168.0,
+    208.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      26.0,
+      -158.0
+     ],
+     "r": 18,
+     "color": "#B9A5D0",
+     "speed": 1.4
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -22.0
+     ],
+     "color": "#A06BFF"
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_cistern/t4": {
+   "page": 3,
+   "x": 2,
+   "y": 1310,
+   "w": 465,
+   "h": 311,
+   "anchor": [
+    232.0,
+    175.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -148.8
+     ],
+     "color": "#3FD17C"
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      83.2,
+      -100.8
+     ],
+     "color": "#3FD17C"
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      -35.2,
+      -108.7
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 3
+  },
+  "barracks/t2": {
+   "page": 3,
+   "x": 471,
+   "y": 1310,
+   "w": 465,
+   "h": 310,
+   "anchor": [
+    232.0,
+    174.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      6.4,
+      -20.2
+     ],
+     "color": "#E8419A"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -150.4,
+      -98.6
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "cog_vault/t1": {
+   "page": 3,
+   "x": 940,
+   "y": 1310,
+   "w": 465,
+   "h": 304,
+   "anchor": [
+    232.0,
+    168.0
+   ],
+   "overlays": [],
+   "footprint": 3
+  },
+  "boltpost/t2": {
+   "page": 3,
+   "x": 1409,
+   "y": 1310,
+   "w": 337,
+   "h": 304,
+   "anchor": [
+    168.0,
+    200.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -139.4
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "thumper/t1": {
+   "page": 3,
+   "x": 2,
+   "y": 1625,
+   "w": 465,
+   "h": 299,
+   "anchor": [
+    232.0,
+    163.0
+   ],
+   "overlays": [
+    {
+     "kind": "impact",
+     "pos": [
+      -41.6,
+      -51.6
+     ]
+    }
+   ],
+   "footprint": 3
+  },
+  "sap_cistern/t3": {
+   "page": 3,
+   "x": 471,
+   "y": 1625,
+   "w": 465,
+   "h": 297,
+   "anchor": [
+    232.0,
+    161.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -131.6
+     ],
+     "color": "#3FD17C"
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -84.9
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 3
+  },
+  "barracks/t1": {
+   "page": 3,
+   "x": 940,
+   "y": 1625,
+   "w": 465,
+   "h": 297,
+   "anchor": [
+    232.0,
+    161.0
+   ],
+   "overlays": [
+    {
+     "kind": "flag",
+     "pos": [
+      6.4,
+      -20.2
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 3
+  },
+  "shard_drill/t4": {
+   "page": 3,
+   "x": 1409,
+   "y": 1625,
+   "w": 337,
+   "h": 297,
+   "anchor": [
+    168.0,
+    193.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      26.0,
+      -146.0
+     ],
+     "r": 18,
+     "color": "#AE9CC4",
+     "speed": 1.4
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -22.0
+     ],
+     "color": "#A06BFF"
+    }
+   ],
+   "footprint": 2
+  },
+  "boltpost/t1": {
+   "page": 4,
+   "x": 2,
+   "y": 2,
+   "w": 337,
+   "h": 294,
+   "anchor": [
+    168.0,
+    190.0
+   ],
+   "overlays": [
+    {
+     "kind": "muzzle",
+     "pos": [
+      0.0,
+      -130.0
+     ]
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_cistern/t2": {
+   "page": 4,
+   "x": 343,
+   "y": 2,
+   "w": 465,
+   "h": 290,
+   "anchor": [
+    232.0,
+    154.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -123.9
+     ],
+     "color": "#3FD17C"
+    },
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -75.6
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 3
+  },
+  "frost_spire/t3": {
+   "page": 4,
+   "x": 812,
+   "y": 2,
+   "w": 337,
+   "h": 289,
+   "anchor": [
+    168.0,
+    185.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -90.0
+     ],
+     "color": "#E9F8FF"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "cog_mine/t5": {
+   "page": 4,
+   "x": 1153,
+   "y": 2,
+   "w": 337,
+   "h": 288,
+   "anchor": [
+    168.0,
+    184.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      28.8,
+      -54.2
+     ],
+     "r": 26,
+     "color": "#B9A5D0",
+     "speed": 0.8
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      58.9,
+      -170.8
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -70.4,
+      -87.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_drill/t3": {
+   "page": 4,
+   "x": 1494,
+   "y": 2,
+   "w": 337,
+   "h": 283,
+   "anchor": [
+    168.0,
+    179.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      26.0,
+      -134.0
+     ],
+     "r": 18,
+     "color": "#A492B7",
+     "speed": 1.4
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -22.0
+     ],
+     "color": "#A06BFF"
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_cistern/t1": {
+   "page": 4,
+   "x": 2,
+   "y": 300,
+   "w": 465,
+   "h": 276,
+   "anchor": [
+    232.0,
+    140.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -95.0
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 3
+  },
+  "cog_mine/t4": {
+   "page": 4,
+   "x": 471,
+   "y": 300,
+   "w": 337,
+   "h": 276,
+   "anchor": [
+    168.0,
+    172.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      28.8,
+      -50.5
+     ],
+     "r": 26,
+     "color": "#AE9CC4",
+     "speed": 0.8
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      58.9,
+      -159.3
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -70.4,
+      -87.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_drill/t2": {
+   "page": 4,
+   "x": 812,
+   "y": 300,
+   "w": 337,
+   "h": 269,
+   "anchor": [
+    168.0,
+    165.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      26.0,
+      -122.0
+     ],
+     "r": 18,
+     "color": "#9988AA",
+     "speed": 1.4
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -22.0
+     ],
+     "color": "#A06BFF"
+    }
+   ],
+   "footprint": 2
+  },
+  "cinder_spout/t5": {
+   "page": 4,
+   "x": 1153,
+   "y": 300,
+   "w": 337,
+   "h": 269,
+   "anchor": [
+    168.0,
+    165.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      67.2,
+      -145.4
+     ]
+    },
+    {
+     "kind": "muzzle",
+     "pos": [
+      -6.4,
+      -126.3
+     ],
+     "shift": [
+      70,
+      0
+     ],
+     "color": "fire"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "cog_mine/t3": {
+   "page": 4,
+   "x": 1494,
+   "y": 300,
+   "w": 337,
+   "h": 265,
+   "anchor": [
+    168.0,
+    161.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      28.8,
+      -46.8
+     ],
+     "r": 26,
+     "color": "#A492B7",
+     "speed": 0.8
+    },
+    {
+     "kind": "smoke",
+     "pos": [
+      58.9,
+      -147.8
+     ]
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -70.4,
+      -87.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_well/t5": {
+   "page": 4,
+   "x": 2,
+   "y": 580,
+   "w": 337,
+   "h": 264,
+   "anchor": [
+    168.0,
+    160.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -50.4
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 2
+  },
+  "frost_spire/t2": {
+   "page": 4,
+   "x": 343,
+   "y": 580,
+   "w": 337,
+   "h": 262,
+   "anchor": [
+    168.0,
+    158.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -90.0
+     ],
+     "color": "#E9F8FF"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "cinder_spout/t4": {
+   "page": 4,
+   "x": 684,
+   "y": 580,
+   "w": 337,
+   "h": 257,
+   "anchor": [
+    168.0,
+    153.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      67.2,
+      -134.2
+     ]
+    },
+    {
+     "kind": "muzzle",
+     "pos": [
+      -6.4,
+      -121.0
+     ],
+     "shift": [
+      70,
+      0
+     ],
+     "color": "fire"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "frost_spire/t1": {
+   "page": 4,
+   "x": 1025,
+   "y": 580,
+   "w": 337,
+   "h": 256,
+   "anchor": [
+    168.0,
+    152.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -90.0
+     ],
+     "color": "#E9F8FF"
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_well/t4": {
+   "page": 4,
+   "x": 1366,
+   "y": 580,
+   "w": 337,
+   "h": 255,
+   "anchor": [
+    168.0,
+    151.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -46.8
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 2
+  },
+  "cog_mine/t2": {
+   "page": 4,
+   "x": 1707,
+   "y": 580,
+   "w": 337,
+   "h": 254,
+   "anchor": [
+    168.0,
+    150.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      28.8,
+      -43.1
+     ],
+     "r": 26,
+     "color": "#9988AA",
+     "speed": 0.8
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -70.4,
+      -87.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_drill/t1": {
+   "page": 4,
+   "x": 2,
+   "y": 848,
+   "w": 337,
+   "h": 254,
+   "anchor": [
+    168.0,
+    150.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      26.0,
+      -110.0
+     ],
+     "r": 18,
+     "color": "#8E7F9E",
+     "speed": 1.4
+    },
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -22.0
+     ],
+     "color": "#A06BFF"
+    }
+   ],
+   "footprint": 2
+  },
+  "construction/2": {
+   "page": 4,
+   "x": 343,
+   "y": 848,
+   "w": 337,
+   "h": 253,
+   "anchor": [
+    168.0,
+    149.0
+   ],
+   "overlays": [
+    {
+     "kind": "dust",
+     "pos": [
+      0.0,
+      -30.0
+     ]
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_crate/t5": {
+   "page": 4,
+   "x": 684,
+   "y": 848,
+   "w": 337,
+   "h": 252,
+   "anchor": [
+    168.0,
+    148.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -82.0
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_crate/t4": {
+   "page": 4,
+   "x": 1025,
+   "y": 848,
+   "w": 337,
+   "h": 248,
+   "anchor": [
+    168.0,
+    144.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -82.0
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_well/t3": {
+   "page": 4,
+   "x": 1366,
+   "y": 848,
+   "w": 337,
+   "h": 246,
+   "anchor": [
+    168.0,
+    142.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -43.2
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 2
+  },
+  "cinder_spout/t3": {
+   "page": 4,
+   "x": 1707,
+   "y": 848,
+   "w": 337,
+   "h": 246,
+   "anchor": [
+    168.0,
+    142.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      67.2,
+      -122.9
+     ]
+    },
+    {
+     "kind": "muzzle",
+     "pos": [
+      -6.4,
+      -115.8
+     ],
+     "shift": [
+      70,
+      0
+     ],
+     "color": "fire"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_crate/t3": {
+   "page": 4,
+   "x": 2,
+   "y": 1106,
+   "w": 337,
+   "h": 244,
+   "anchor": [
+    168.0,
+    140.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -82.0
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 2
+  },
+  "cog_mine/t1": {
+   "page": 4,
+   "x": 343,
+   "y": 1106,
+   "w": 337,
+   "h": 243,
+   "anchor": [
+    168.0,
+    139.0
+   ],
+   "overlays": [
+    {
+     "kind": "gear",
+     "pos": [
+      28.8,
+      -39.4
+     ],
+     "r": 26,
+     "color": "#8E7F9E",
+     "speed": 0.8
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_crate/t2": {
+   "page": 4,
+   "x": 684,
+   "y": 1106,
+   "w": 337,
+   "h": 240,
+   "anchor": [
+    168.0,
+    136.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -82.0
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_well/t2": {
+   "page": 4,
+   "x": 1025,
+   "y": 1106,
+   "w": 337,
+   "h": 238,
+   "anchor": [
+    168.0,
+    134.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -39.6
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 2
+  },
+  "cinder_spout/t2": {
+   "page": 4,
+   "x": 1366,
+   "y": 1106,
+   "w": 337,
+   "h": 237,
+   "anchor": [
+    168.0,
+    133.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      67.2,
+      -111.6
+     ]
+    },
+    {
+     "kind": "muzzle",
+     "pos": [
+      -6.4,
+      -110.5
+     ],
+     "shift": [
+      70,
+      0
+     ],
+     "color": "fire"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      -99.8,
+      -74.0
+     ],
+     "color": "#E8419A"
+    }
+   ],
+   "footprint": 2
+  },
+  "shard_crate/t1": {
+   "page": 4,
+   "x": 1707,
+   "y": 1106,
+   "w": 337,
+   "h": 236,
+   "anchor": [
+    168.0,
+    132.0
+   ],
+   "overlays": [
+    {
+     "kind": "sparkle",
+     "pos": [
+      0.0,
+      -82.0
+     ],
+     "color": "#C9A8FF"
+    }
+   ],
+   "footprint": 2
+  },
+  "cinder_spout/t1": {
+   "page": 4,
+   "x": 2,
+   "y": 1354,
+   "w": 337,
+   "h": 231,
+   "anchor": [
+    168.0,
+    127.0
+   ],
+   "overlays": [
+    {
+     "kind": "smoke",
+     "pos": [
+      67.2,
+      -100.3
+     ]
+    },
+    {
+     "kind": "muzzle",
+     "pos": [
+      -6.4,
+      -105.2
+     ],
+     "shift": [
+      70,
+      0
+     ],
+     "color": "fire"
+    }
+   ],
+   "footprint": 2
+  },
+  "sap_well/t1": {
+   "page": 4,
+   "x": 343,
+   "y": 1354,
+   "w": 337,
+   "h": 229,
+   "anchor": [
+    168.0,
+    125.0
+   ],
+   "overlays": [
+    {
+     "kind": "bubbles",
+     "pos": [
+      0.0,
+      -36.0
+     ],
+     "color": "#3FD17C"
+    }
+   ],
+   "footprint": 2
+  },
+  "air_mine/t1": {
+   "page": 4,
+   "x": 684,
+   "y": 1354,
+   "w": 133,
+   "h": 167,
+   "anchor": [
+    66.0,
+    116.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "air_mine/t2": {
+   "page": 4,
+   "x": 821,
+   "y": 1354,
+   "w": 133,
+   "h": 167,
+   "anchor": [
+    66.0,
+    116.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "air_mine/t3": {
+   "page": 4,
+   "x": 958,
+   "y": 1354,
+   "w": 133,
+   "h": 167,
+   "anchor": [
+    66.0,
+    116.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "air_mine/t4": {
+   "page": 4,
+   "x": 1095,
+   "y": 1354,
+   "w": 133,
+   "h": 167,
+   "anchor": [
+    66.0,
+    116.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "air_mine/t5": {
+   "page": 4,
+   "x": 1232,
+   "y": 1354,
+   "w": 133,
+   "h": 167,
+   "anchor": [
+    66.0,
+    116.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "construction/1": {
+   "page": 4,
+   "x": 1369,
+   "y": 1354,
+   "w": 211,
+   "h": 164,
+   "anchor": [
+    105.0,
+    92.0
+   ],
+   "overlays": [
+    {
+     "kind": "dust",
+     "pos": [
+      0.0,
+      -30.0
+     ]
+    }
+   ],
+   "footprint": 1
+  },
+  "snare_trap/t1": {
+   "page": 4,
+   "x": 1584,
+   "y": 1354,
+   "w": 213,
+   "h": 129,
+   "anchor": [
+    106.0,
+    58.0
+   ],
+   "overlays": [],
+   "footprint": 2
+  },
+  "snare_trap/t2": {
+   "page": 4,
+   "x": 1801,
+   "y": 1354,
+   "w": 213,
+   "h": 129,
+   "anchor": [
+    106.0,
+    58.0
+   ],
+   "overlays": [],
+   "footprint": 2
+  },
+  "snare_trap/t3": {
+   "page": 4,
+   "x": 2,
+   "y": 1589,
+   "w": 213,
+   "h": 129,
+   "anchor": [
+    106.0,
+    58.0
+   ],
+   "overlays": [],
+   "footprint": 2
+  },
+  "snare_trap/t4": {
+   "page": 4,
+   "x": 219,
+   "y": 1589,
+   "w": 213,
+   "h": 129,
+   "anchor": [
+    106.0,
+    58.0
+   ],
+   "overlays": [],
+   "footprint": 2
+  },
+  "snare_trap/t5": {
+   "page": 4,
+   "x": 436,
+   "y": 1589,
+   "w": 213,
+   "h": 129,
+   "anchor": [
+    106.0,
+    58.0
+   ],
+   "overlays": [],
+   "footprint": 2
+  },
+  "bomb_trap/t1": {
+   "page": 4,
+   "x": 653,
+   "y": 1589,
+   "w": 133,
+   "h": 110,
+   "anchor": [
+    66.0,
+    59.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "bomb_trap/t2": {
+   "page": 4,
+   "x": 790,
+   "y": 1589,
+   "w": 133,
+   "h": 110,
+   "anchor": [
+    66.0,
+    59.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "bomb_trap/t3": {
+   "page": 4,
+   "x": 927,
+   "y": 1589,
+   "w": 133,
+   "h": 110,
+   "anchor": [
+    66.0,
+    59.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "bomb_trap/t4": {
+   "page": 4,
+   "x": 1064,
+   "y": 1589,
+   "w": 133,
+   "h": 110,
+   "anchor": [
+    66.0,
+    59.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "bomb_trap/t5": {
+   "page": 4,
+   "x": 1201,
+   "y": 1589,
+   "w": 133,
+   "h": 110,
+   "anchor": [
+    66.0,
+    59.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "spring_pad/t1": {
+   "page": 4,
+   "x": 1338,
+   "y": 1589,
+   "w": 133,
+   "h": 107,
+   "anchor": [
+    66.0,
+    56.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "spring_pad/t2": {
+   "page": 4,
+   "x": 1475,
+   "y": 1589,
+   "w": 133,
+   "h": 107,
+   "anchor": [
+    66.0,
+    56.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "spring_pad/t3": {
+   "page": 4,
+   "x": 1612,
+   "y": 1589,
+   "w": 133,
+   "h": 107,
+   "anchor": [
+    66.0,
+    56.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "spring_pad/t4": {
+   "page": 4,
+   "x": 1749,
+   "y": 1589,
+   "w": 133,
+   "h": 107,
+   "anchor": [
+    66.0,
+    56.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  },
+  "spring_pad/t5": {
+   "page": 4,
+   "x": 1886,
+   "y": 1589,
+   "w": 133,
+   "h": 107,
+   "anchor": [
+    66.0,
+    56.0
+   ],
+   "overlays": [],
+   "footprint": 1
+  }
+ }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "wick",
+    "index": 1,
+    "trophies_min": 0,
+    "trophies_max": 299,
+    "first_reach_gems": 0,
+    "win_loot_bonus": 0.0
+  },
+  {
+    "id": "spark",
+    "index": 2,
+    "trophies_min": 300,
+    "trophies_max": 599,
+    "first_reach_gems": 5,
+    "win_loot_bonus": 0.0
+  },
+  {
+    "id": "ember",
+    "index": 3,
+    "trophies_min": 600,
+    "trophies_max": 999,
+    "first_reach_gems": 10,
+    "win_loot_bonus": 0.05
+  },
+  {
+    "id": "flame",
+    "index": 4,
+    "trophies_min": 1000,
+    "trophies_max": 1399,
+    "first_reach_gems": 20,
+    "win_loot_bonus": 0.08
+  },
+  {
+    "id": "blaze",
+    "index": 5,
+    "trophies_min": 1400,
+    "trophies_max": 1799,
+    "first_reach_gems": 30,
+    "win_loot_bonus": 0.1
+  },
+  {
+    "id": "beacon",
+    "index": 6,
+    "trophies_min": 1800,
+    "trophies_max": 2399,
+    "first_reach_gems": 50,
+    "win_loot_bonus": 0.15
+  },
+  {
+    "id": "lighthouse",
+    "index": 7,
+    "trophies_min": 2400,
+    "trophies_max": 3199,
+    "first_reach_gems": 80,
+    "win_loot_bonus": 0.2
+  },
+  {
+    "id": "sunforge",
+    "index": 8,
+    "trophies_min": 3200,
+    "trophies_max": 99999,
+    "first_reach_gems": 120,
+    "win_loot_bonus": 0.25
+  }
+]

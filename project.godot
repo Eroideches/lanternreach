@@ -1,0 +1,70 @@
+; Lanternreach - progetto Godot 4.3
+config_version=5
+
+[application]
+
+config/name="Lanternreach"
+config/description="Strategia base-building e attacco asincrono nel regno delle isole sospese."
+config/version="1.0.0"
+run/main_scene="res://scenes/boot.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/show_image=false
+config/icon="res://icon.png"
+
+[audio]
+
+buses/default_bus_layout="res://default_bus_layout.tres"
+
+[autoload]
+
+EventBus="*res://scripts/autoload/event_bus.gd"
+Balance="*res://scripts/autoload/balance.gd"
+Art="*res://scripts/autoload/art.gd"
+TimeManager="*res://scripts/autoload/time_manager.gd"
+GameState="*res://scripts/autoload/game_state.gd"
+EconomyManager="*res://scripts/autoload/economy_manager.gd"
+Progression="*res://scripts/autoload/progression.gd"
+SaveManager="*res://scripts/autoload/save_manager.gd"
+AudioManager="*res://scripts/autoload/audio_manager.gd"
+Router="*res://scripts/autoload/router.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=0
+
+[editor_plugins]
+
+enabled=PackedStringArray()
+
+[gui]
+
+theme/custom="res://assets/ui/theme.tres"
+timers/tooltip_delay_sec=0.4
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://localization/strings.en.translation", "res://localization/strings.it.translation")
+locale/fallback="en"
+
+[physics]
+
+common/physics_ticks_per_second=30
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.373, 0.722, 0.933, 1)
+2d/snap/snap_2d_transforms_to_pixel=false

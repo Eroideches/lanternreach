@@ -1,0 +1,11 @@
+id,level,req_hall,cost_res,cost,cost_shards,time_s,xp,hp,stored_cogs,stored_sap
+lantern_hall,1,1,cogs,0,0,0,0,900,500,500
+lantern_hall,2,1,cogs,1000,0,300,17,1120,1000,1000
+lantern_hall,3,2,cogs,3000,0,3600,60,1410,2000,2000
+lantern_hall,4,3,cogs,15000,0,14400,120,1760,4000,4000
+lantern_hall,5,4,cogs,40000,0,43200,207,2200,8000,8000
+lantern_hall,6,5,cogs,150000,0,86400,293,2750,16000,16000
+lantern_hall,7,6,cogs,320000,0,129600,360,3430,32000,32000
+lantern_hall,8,7,cogs,850000,0,172800,415,4290,64000,64000
+lantern_hall,9,8,cogs,1500000,0,216000,464,5360,128000,128000
+lantern_hall,10,9,cogs,2600000,0,259200,509,6710,256000,256000

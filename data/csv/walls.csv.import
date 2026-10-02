@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bundi164tx7ux"
+
+[deps]
+
+files=["res://data/csv/walls.level.translation", "res://data/csv/walls.req.translation", "res://data/csv/walls.cost.translation", "res://data/csv/walls.cost.translation", "res://data/csv/walls.cost.translation", "res://data/csv/walls.time.translation", "res://data/csv/walls.xp.translation", "res://data/csv/walls.hp.translation", "res://data/csv/walls.size.translation"]
+
+source_file="res://data/csv/walls.csv"
+dest_files=["res://data/csv/walls.level.translation", "res://data/csv/walls.req.translation", "res://data/csv/walls.cost.translation", "res://data/csv/walls.cost.translation", "res://data/csv/walls.cost.translation", "res://data/csv/walls.time.translation", "res://data/csv/walls.xp.translation", "res://data/csv/walls.hp.translation", "res://data/csv/walls.size.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,239 @@
+{
+ "pages": [
+  "ui_0.png"
+ ],
+ "regions": {
+  "ui/panel": {
+   "page": 0,
+   "x": 2,
+   "y": 2,
+   "w": 96,
+   "h": 96,
+   "margin": 30
+  },
+  "ui/panel_dark": {
+   "page": 0,
+   "x": 102,
+   "y": 2,
+   "w": 96,
+   "h": 96,
+   "margin": 30
+  },
+  "ui/slot": {
+   "page": 0,
+   "x": 202,
+   "y": 2,
+   "w": 96,
+   "h": 96,
+   "margin": 24
+  },
+  "ui/slot_selected": {
+   "page": 0,
+   "x": 302,
+   "y": 2,
+   "w": 96,
+   "h": 96,
+   "margin": 24
+  },
+  "ui/slot_dark": {
+   "page": 0,
+   "x": 402,
+   "y": 2,
+   "w": 96,
+   "h": 96,
+   "margin": 24
+  },
+  "ui/btn_green_normal": {
+   "page": 0,
+   "x": 502,
+   "y": 2,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_green_pressed": {
+   "page": 0,
+   "x": 602,
+   "y": 2,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_blue_normal": {
+   "page": 0,
+   "x": 702,
+   "y": 2,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_blue_pressed": {
+   "page": 0,
+   "x": 802,
+   "y": 2,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_red_normal": {
+   "page": 0,
+   "x": 902,
+   "y": 2,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_red_pressed": {
+   "page": 0,
+   "x": 2,
+   "y": 102,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_gold_normal": {
+   "page": 0,
+   "x": 102,
+   "y": 102,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_gold_pressed": {
+   "page": 0,
+   "x": 202,
+   "y": 102,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_purple_normal": {
+   "page": 0,
+   "x": 302,
+   "y": 102,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_purple_pressed": {
+   "page": 0,
+   "x": 402,
+   "y": 102,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/btn_disabled_normal": {
+   "page": 0,
+   "x": 502,
+   "y": 102,
+   "w": 96,
+   "h": 88,
+   "margin": 26
+  },
+  "ui/ribbon": {
+   "page": 0,
+   "x": 602,
+   "y": 102,
+   "w": 192,
+   "h": 72,
+   "margin": 34
+  },
+  "ui/ribbon_blue": {
+   "page": 0,
+   "x": 798,
+   "y": 102,
+   "w": 192,
+   "h": 72,
+   "margin": 34
+  },
+  "ui/panel_inset": {
+   "page": 0,
+   "x": 2,
+   "y": 194,
+   "w": 64,
+   "h": 64,
+   "margin": 18
+  },
+  "ui/tooltip": {
+   "page": 0,
+   "x": 70,
+   "y": 194,
+   "w": 120,
+   "h": 56,
+   "margin": 28
+  },
+  "ui/res_bar": {
+   "page": 0,
+   "x": 194,
+   "y": 194,
+   "w": 120,
+   "h": 52,
+   "margin": 26
+  },
+  "ui/bar_bg": {
+   "page": 0,
+   "x": 318,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  },
+  "ui/bar_hp": {
+   "page": 0,
+   "x": 402,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  },
+  "ui/bar_hp_enemy": {
+   "page": 0,
+   "x": 486,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  },
+  "ui/bar_build": {
+   "page": 0,
+   "x": 570,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  },
+  "ui/bar_cogs": {
+   "page": 0,
+   "x": 654,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  },
+  "ui/bar_sap": {
+   "page": 0,
+   "x": 738,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  },
+  "ui/bar_shards": {
+   "page": 0,
+   "x": 822,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  },
+  "ui/bar_xp": {
+   "page": 0,
+   "x": 906,
+   "y": 194,
+   "w": 80,
+   "h": 36,
+   "margin": 18
+  }
+ }
+}

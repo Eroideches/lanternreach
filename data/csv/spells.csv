@@ -1,0 +1,11 @@
+id,level,size,radius,duration_s,cost_res,cost,train_s,forge_req,heal_per_s,damage_bonus,speed_bonus
+mending_mist,1,2,5.0,8.0,sap,4000,180,1,28,,
+mending_mist,2,2,5.0,8.0,sap,5000,210,2,34,,
+mending_mist,3,2,5.0,8.0,sap,6250,240,3,40,,
+mending_mist,4,2,5.0,8.0,sap,7810,270,4,48,,
+mending_mist,5,2,5.0,8.0,sap,9770,300,5,58,,
+fervor_surge,1,2,4.0,6.0,sap,6500,240,1,,0.3,0.25
+fervor_surge,2,2,4.0,6.0,sap,8120,270,2,,0.341,0.281
+fervor_surge,3,2,4.0,6.0,sap,10200,300,3,,0.387,0.316
+fervor_surge,4,2,4.0,6.0,sap,12700,330,4,,0.44,0.356
+fervor_surge,5,2,4.0,6.0,sap,15900,360,5,,0.5,0.4

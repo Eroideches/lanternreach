@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dy7qjs0a1w1ae"
+
+[deps]
+
+files=["res://data/csv/lab_research.level.translation", "res://data/csv/lab_research.lab.translation", "res://data/csv/lab_research.cost.translation", "res://data/csv/lab_research.cost.translation", "res://data/csv/lab_research.time.translation", "res://data/csv/lab_research.xp.translation"]
+
+source_file="res://data/csv/lab_research.csv"
+dest_files=["res://data/csv/lab_research.level.translation", "res://data/csv/lab_research.lab.translation", "res://data/csv/lab_research.cost.translation", "res://data/csv/lab_research.cost.translation", "res://data/csv/lab_research.time.translation", "res://data/csv/lab_research.xp.translation"]
+
+[params]
+
+compress=true
+delimiter=0

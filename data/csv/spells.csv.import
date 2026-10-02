@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dplsscgupccxx"
+
+[deps]
+
+files=["res://data/csv/spells.level.translation", "res://data/csv/spells.size.translation", "res://data/csv/spells.radius.translation", "res://data/csv/spells.duration.translation", "res://data/csv/spells.cost.translation", "res://data/csv/spells.cost.translation", "res://data/csv/spells.train.translation", "res://data/csv/spells.forge.translation", "res://data/csv/spells.heal.translation", "res://data/csv/spells.damage.translation", "res://data/csv/spells.speed.translation"]
+
+source_file="res://data/csv/spells.csv"
+dest_files=["res://data/csv/spells.level.translation", "res://data/csv/spells.size.translation", "res://data/csv/spells.radius.translation", "res://data/csv/spells.duration.translation", "res://data/csv/spells.cost.translation", "res://data/csv/spells.cost.translation", "res://data/csv/spells.train.translation", "res://data/csv/spells.forge.translation", "res://data/csv/spells.heal.translation", "res://data/csv/spells.damage.translation", "res://data/csv/spells.speed.translation"]
+
+[params]
+
+compress=true
+delimiter=0

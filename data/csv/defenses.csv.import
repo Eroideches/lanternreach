@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b1s25mneo7dau"
+
+[deps]
+
+files=["res://data/csv/defenses.level.translation", "res://data/csv/defenses.req.translation", "res://data/csv/defenses.cost.translation", "res://data/csv/defenses.cost.translation", "res://data/csv/defenses.cost.translation", "res://data/csv/defenses.time.translation", "res://data/csv/defenses.xp.translation", "res://data/csv/defenses.hp.translation", "res://data/csv/defenses.dps.translation", "res://data/csv/defenses.damage.translation", "res://data/csv/defenses.interval.translation", "res://data/csv/defenses.range.translation", "res://data/csv/defenses.range.translation", "res://data/csv/defenses.targets.translation", "res://data/csv/defenses.splash.translation", "res://data/csv/defenses.priority.translation", "res://data/csv/defenses.size.translation", "res://data/csv/defenses.chain.translation", "res://data/csv/defenses.chain.translation", "res://data/csv/defenses.slow.translation", "res://data/csv/defenses.slow.translation"]
+
+source_file="res://data/csv/defenses.csv"
+dest_files=["res://data/csv/defenses.level.translation", "res://data/csv/defenses.req.translation", "res://data/csv/defenses.cost.translation", "res://data/csv/defenses.cost.translation", "res://data/csv/defenses.cost.translation", "res://data/csv/defenses.time.translation", "res://data/csv/defenses.xp.translation", "res://data/csv/defenses.hp.translation", "res://data/csv/defenses.dps.translation", "res://data/csv/defenses.damage.translation", "res://data/csv/defenses.interval.translation", "res://data/csv/defenses.range.translation", "res://data/csv/defenses.range.translation", "res://data/csv/defenses.targets.translation", "res://data/csv/defenses.splash.translation", "res://data/csv/defenses.priority.translation", "res://data/csv/defenses.size.translation", "res://data/csv/defenses.chain.translation", "res://data/csv/defenses.chain.translation", "res://data/csv/defenses.slow.translation", "res://data/csv/defenses.slow.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://d32ibrtv2yfoa"
+
+[deps]
+
+files=["res://data/csv/storage.level.translation", "res://data/csv/storage.req.translation", "res://data/csv/storage.cost.translation", "res://data/csv/storage.cost.translation", "res://data/csv/storage.cost.translation", "res://data/csv/storage.time.translation", "res://data/csv/storage.xp.translation", "res://data/csv/storage.hp.translation", "res://data/csv/storage.capacity.translation"]
+
+source_file="res://data/csv/storage.csv"
+dest_files=["res://data/csv/storage.level.translation", "res://data/csv/storage.req.translation", "res://data/csv/storage.cost.translation", "res://data/csv/storage.cost.translation", "res://data/csv/storage.cost.translation", "res://data/csv/storage.time.translation", "res://data/csv/storage.xp.translation", "res://data/csv/storage.hp.translation", "res://data/csv/storage.capacity.translation"]
+
+[params]
+
+compress=true
+delimiter=0

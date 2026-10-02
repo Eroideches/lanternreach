@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bpjqiuwoq6cku"
+
+[deps]
+
+files=["res://data/csv/economy.level.translation", "res://data/csv/economy.req.translation", "res://data/csv/economy.cost.translation", "res://data/csv/economy.cost.translation", "res://data/csv/economy.cost.translation", "res://data/csv/economy.time.translation", "res://data/csv/economy.xp.translation", "res://data/csv/economy.hp.translation", "res://data/csv/economy.prod.translation", "res://data/csv/economy.capacity.translation"]
+
+source_file="res://data/csv/economy.csv"
+dest_files=["res://data/csv/economy.level.translation", "res://data/csv/economy.req.translation", "res://data/csv/economy.cost.translation", "res://data/csv/economy.cost.translation", "res://data/csv/economy.cost.translation", "res://data/csv/economy.time.translation", "res://data/csv/economy.xp.translation", "res://data/csv/economy.hp.translation", "res://data/csv/economy.prod.translation", "res://data/csv/economy.capacity.translation"]
+
+[params]
+
+compress=true
+delimiter=0

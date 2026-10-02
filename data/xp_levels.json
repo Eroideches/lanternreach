@@ -1,0 +1,152 @@
+[
+  {
+    "level": 1,
+    "xp_to_next": 12,
+    "xp_cumulative_start": 0
+  },
+  {
+    "level": 2,
+    "xp_to_next": 36,
+    "xp_cumulative_start": 12
+  },
+  {
+    "level": 3,
+    "xp_to_next": 70,
+    "xp_cumulative_start": 48
+  },
+  {
+    "level": 4,
+    "xp_to_next": 110,
+    "xp_cumulative_start": 118
+  },
+  {
+    "level": 5,
+    "xp_to_next": 158,
+    "xp_cumulative_start": 228
+  },
+  {
+    "level": 6,
+    "xp_to_next": 211,
+    "xp_cumulative_start": 386
+  },
+  {
+    "level": 7,
+    "xp_to_next": 270,
+    "xp_cumulative_start": 597
+  },
+  {
+    "level": 8,
+    "xp_to_next": 334,
+    "xp_cumulative_start": 867
+  },
+  {
+    "level": 9,
+    "xp_to_next": 404,
+    "xp_cumulative_start": 1201
+  },
+  {
+    "level": 10,
+    "xp_to_next": 478,
+    "xp_cumulative_start": 1605
+  },
+  {
+    "level": 11,
+    "xp_to_next": 556,
+    "xp_cumulative_start": 2083
+  },
+  {
+    "level": 12,
+    "xp_to_next": 640,
+    "xp_cumulative_start": 2639
+  },
+  {
+    "level": 13,
+    "xp_to_next": 727,
+    "xp_cumulative_start": 3279
+  },
+  {
+    "level": 14,
+    "xp_to_next": 818,
+    "xp_cumulative_start": 4006
+  },
+  {
+    "level": 15,
+    "xp_to_next": 914,
+    "xp_cumulative_start": 4824
+  },
+  {
+    "level": 16,
+    "xp_to_next": 1013,
+    "xp_cumulative_start": 5738
+  },
+  {
+    "level": 17,
+    "xp_to_next": 1117,
+    "xp_cumulative_start": 6751
+  },
+  {
+    "level": 18,
+    "xp_to_next": 1224,
+    "xp_cumulative_start": 7868
+  },
+  {
+    "level": 19,
+    "xp_to_next": 1334,
+    "xp_cumulative_start": 9092
+  },
+  {
+    "level": 20,
+    "xp_to_next": 1448,
+    "xp_cumulative_start": 10426
+  },
+  {
+    "level": 21,
+    "xp_to_next": 1566,
+    "xp_cumulative_start": 11874
+  },
+  {
+    "level": 22,
+    "xp_to_next": 1687,
+    "xp_cumulative_start": 13440
+  },
+  {
+    "level": 23,
+    "xp_to_next": 1811,
+    "xp_cumulative_start": 15127
+  },
+  {
+    "level": 24,
+    "xp_to_next": 1939,
+    "xp_cumulative_start": 16938
+  },
+  {
+    "level": 25,
+    "xp_to_next": 2070,
+    "xp_cumulative_start": 18877
+  },
+  {
+    "level": 26,
+    "xp_to_next": 2204,
+    "xp_cumulative_start": 20947
+  },
+  {
+    "level": 27,
+    "xp_to_next": 2341,
+    "xp_cumulative_start": 23151
+  },
+  {
+    "level": 28,
+    "xp_to_next": 2481,
+    "xp_cumulative_start": 25492
+  },
+  {
+    "level": 29,
+    "xp_to_next": 2624,
+    "xp_cumulative_start": 27973
+  },
+  {
+    "level": 30,
+    "xp_to_next": 2771,
+    "xp_cumulative_start": 30597
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "levels": [
+    {
+      "id": "wall",
+      "level": 1,
+      "req_hall": 1,
+      "cost_res": "cogs",
+      "cost": 50,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 300,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 2,
+      "req_hall": 2,
+      "cost_res": "cogs",
+      "cost": 110,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 390,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 3,
+      "req_hall": 3,
+      "cost_res": "cogs",
+      "cost": 242,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 508,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 4,
+      "req_hall": 4,
+      "cost_res": "cogs",
+      "cost": 531,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 660,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 5,
+      "req_hall": 5,
+      "cost_res": "cogs",
+      "cost": 1170,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 859,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 6,
+      "req_hall": 6,
+      "cost_res": "cogs",
+      "cost": 2570,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 1120,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 7,
+      "req_hall": 7,
+      "cost_res": "cogs",
+      "cost": 5650,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 1450,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 8,
+      "req_hall": 8,
+      "cost_res": "cogs",
+      "cost": 12400,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 1890,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 9,
+      "req_hall": 9,
+      "cost_res": "cogs",
+      "cost": 27300,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 2460,
+      "size": 1
+    },
+    {
+      "id": "wall",
+      "level": 10,
+      "req_hall": 10,
+      "cost_res": "cogs",
+      "cost": 60000,
+      "cost_shards": 0,
+      "time_s": 0,
+      "xp": 0,
+      "hp": 3200,
+      "size": 1
+    }
+  ],
+  "counts_by_hall": [
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250
+  ],
+  "drag_line_placement": true
+}

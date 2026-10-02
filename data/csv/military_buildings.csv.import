@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://26ecb6575t4c"
+
+[deps]
+
+files=["res://data/csv/military_buildings.level.translation", "res://data/csv/military_buildings.req.translation", "res://data/csv/military_buildings.cost.translation", "res://data/csv/military_buildings.cost.translation", "res://data/csv/military_buildings.cost.translation", "res://data/csv/military_buildings.time.translation", "res://data/csv/military_buildings.xp.translation", "res://data/csv/military_buildings.hp.translation", "res://data/csv/military_buildings.troops.translation", "res://data/csv/military_buildings.army.translation", "res://data/csv/military_buildings.max.translation", "res://data/csv/military_buildings.spell.translation", "res://data/csv/military_buildings.clan.translation"]
+
+source_file="res://data/csv/military_buildings.csv"
+dest_files=["res://data/csv/military_buildings.level.translation", "res://data/csv/military_buildings.req.translation", "res://data/csv/military_buildings.cost.translation", "res://data/csv/military_buildings.cost.translation", "res://data/csv/military_buildings.cost.translation", "res://data/csv/military_buildings.time.translation", "res://data/csv/military_buildings.xp.translation", "res://data/csv/military_buildings.hp.translation", "res://data/csv/military_buildings.troops.translation", "res://data/csv/military_buildings.army.translation", "res://data/csv/military_buildings.max.translation", "res://data/csv/military_buildings.spell.translation", "res://data/csv/military_buildings.clan.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://chr824o3oi7i3"
+
+[deps]
+
+files=["res://data/csv/xp_levels.xp.translation", "res://data/csv/xp_levels.xp.translation"]
+
+source_file="res://data/csv/xp_levels.csv"
+dest_files=["res://data/csv/xp_levels.xp.translation", "res://data/csv/xp_levels.xp.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c4yd0cl1cgosk"
+
+[deps]
+
+files=["res://data/csv/leagues.index.translation", "res://data/csv/leagues.trophies.translation", "res://data/csv/leagues.trophies.translation", "res://data/csv/leagues.first.translation", "res://data/csv/leagues.win.translation"]
+
+source_file="res://data/csv/leagues.csv"
+dest_files=["res://data/csv/leagues.index.translation", "res://data/csv/leagues.trophies.translation", "res://data/csv/leagues.trophies.translation", "res://data/csv/leagues.first.translation", "res://data/csv/leagues.win.translation"]
+
+[params]
+
+compress=true
+delimiter=0

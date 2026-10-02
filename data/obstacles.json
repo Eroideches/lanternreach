@@ -1,0 +1,54 @@
+{
+  "types": [
+    {
+      "id": "sapling",
+      "size": 1,
+      "weight": 45,
+      "gems": [
+        0,
+        1
+      ],
+      "remove_cost_per_hall": 15,
+      "remove_time_s": 10
+    },
+    {
+      "id": "boulder",
+      "size": 2,
+      "weight": 35,
+      "gems": [
+        0,
+        2
+      ],
+      "remove_cost_per_hall": 30,
+      "remove_time_s": 60
+    },
+    {
+      "id": "glowshroom",
+      "size": 2,
+      "weight": 15,
+      "gems": [
+        1,
+        3
+      ],
+      "remove_cost_per_hall": 60,
+      "remove_time_s": 600
+    },
+    {
+      "id": "moon_crystal",
+      "size": 2,
+      "weight": 5,
+      "gems": [
+        3,
+        6
+      ],
+      "remove_cost_per_hall": 120,
+      "remove_time_s": 3600
+    }
+  ],
+  "rules": {
+    "max_on_map": 40,
+    "spawn_interval_s": 21600,
+    "remove_uses_builder": true,
+    "remove_cost_res": "random_cogs_or_sap"
+  }
+}

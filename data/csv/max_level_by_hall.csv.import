@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bvqf2haj0ucco"
+
+[deps]
+
+files=["res://data/csv/max_level_by_hall.cog.translation", "res://data/csv/max_level_by_hall.sap.translation", "res://data/csv/max_level_by_hall.shard.translation", "res://data/csv/max_level_by_hall.cog.translation", "res://data/csv/max_level_by_hall.sap.translation", "res://data/csv/max_level_by_hall.shard.translation", "res://data/csv/max_level_by_hall.barracks.translation", "res://data/csv/max_level_by_hall.army.translation", "res://data/csv/max_level_by_hall.laboratory.translation", "res://data/csv/max_level_by_hall.spell.translation", "res://data/csv/max_level_by_hall.clan.translation", "res://data/csv/max_level_by_hall.boltpost.translation", "res://data/csv/max_level_by_hall.lobber.translation", "res://data/csv/max_level_by_hall.skyspear.translation", "res://data/csv/max_level_by_hall.arc.translation", "res://data/csv/max_level_by_hall.ballista.translation", "res://data/csv/max_level_by_hall.thumper.translation", "res://data/csv/max_level_by_hall.frost.translation", "res://data/csv/max_level_by_hall.cinder.translation", "res://data/csv/max_level_by_hall.storm.translation", "res://data/csv/max_level_by_hall.wall.translation", "res://data/csv/max_level_by_hall.bomb.translation", "res://data/csv/max_level_by_hall.spring.translation", "res://data/csv/max_level_by_hall.snare.translation", "res://data/csv/max_level_by_hall.air.translation"]
+
+source_file="res://data/csv/max_level_by_hall.csv"
+dest_files=["res://data/csv/max_level_by_hall.cog.translation", "res://data/csv/max_level_by_hall.sap.translation", "res://data/csv/max_level_by_hall.shard.translation", "res://data/csv/max_level_by_hall.cog.translation", "res://data/csv/max_level_by_hall.sap.translation", "res://data/csv/max_level_by_hall.shard.translation", "res://data/csv/max_level_by_hall.barracks.translation", "res://data/csv/max_level_by_hall.army.translation", "res://data/csv/max_level_by_hall.laboratory.translation", "res://data/csv/max_level_by_hall.spell.translation", "res://data/csv/max_level_by_hall.clan.translation", "res://data/csv/max_level_by_hall.boltpost.translation", "res://data/csv/max_level_by_hall.lobber.translation", "res://data/csv/max_level_by_hall.skyspear.translation", "res://data/csv/max_level_by_hall.arc.translation", "res://data/csv/max_level_by_hall.ballista.translation", "res://data/csv/max_level_by_hall.thumper.translation", "res://data/csv/max_level_by_hall.frost.translation", "res://data/csv/max_level_by_hall.cinder.translation", "res://data/csv/max_level_by_hall.storm.translation", "res://data/csv/max_level_by_hall.wall.translation", "res://data/csv/max_level_by_hall.bomb.translation", "res://data/csv/max_level_by_hall.spring.translation", "res://data/csv/max_level_by_hall.snare.translation", "res://data/csv/max_level_by_hall.air.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://deyak2acrwxjs"
+
+[deps]
+
+files=["res://data/csv/troops.level.translation", "res://data/csv/troops.role.translation", "res://data/csv/troops.size.translation", "res://data/csv/troops.hp.translation", "res://data/csv/troops.dps.translation", "res://data/csv/troops.speed.translation", "res://data/csv/troops.range.translation", "res://data/csv/troops.flying.translation", "res://data/csv/troops.targets.translation", "res://data/csv/troops.preference.translation", "res://data/csv/troops.cost.translation", "res://data/csv/troops.cost.translation", "res://data/csv/troops.train.translation", "res://data/csv/troops.barracks.translation", "res://data/csv/troops.lab.translation", "res://data/csv/troops.special.translation", "res://data/csv/troops.blast.translation", "res://data/csv/troops.heal.translation"]
+
+source_file="res://data/csv/troops.csv"
+dest_files=["res://data/csv/troops.level.translation", "res://data/csv/troops.role.translation", "res://data/csv/troops.size.translation", "res://data/csv/troops.hp.translation", "res://data/csv/troops.dps.translation", "res://data/csv/troops.speed.translation", "res://data/csv/troops.range.translation", "res://data/csv/troops.flying.translation", "res://data/csv/troops.targets.translation", "res://data/csv/troops.preference.translation", "res://data/csv/troops.cost.translation", "res://data/csv/troops.cost.translation", "res://data/csv/troops.train.translation", "res://data/csv/troops.barracks.translation", "res://data/csv/troops.lab.translation", "res://data/csv/troops.special.translation", "res://data/csv/troops.blast.translation", "res://data/csv/troops.heal.translation"]
+
+[params]
+
+compress=true
+delimiter=0

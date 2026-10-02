@@ -1,0 +1,194 @@
+# Build Android di Lanternreach.
+# A ogni push su main (o avvio manuale): import del progetto, controllo degli script, test GUT
+# (la build fallisce se un test non passa o se nel log compare uno SCRIPT ERROR), export headless
+# di un APK debug firmato con un keystore di debug generato al volo, verifica dell'APK, artifact e Release.
+name: Android build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-build-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  GODOT_VERSION: "4.3"
+  EXPORT_NAME: lanternreach
+
+jobs:
+  android:
+    name: Test GUT ed export APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    container:
+      image: barichello/godot-ci:4.3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Versione
+        id: ver
+        shell: bash
+        run: |
+          VERSION=$(sed -n 's/^config\/version="\(.*\)"/\1/p' project.godot)
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "code=${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          echo "tag=v${VERSION}-build.${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          echo "apk=${EXPORT_NAME}-${VERSION}-build.${{ github.run_number }}-debug.apk" >> "$GITHUB_OUTPUT"
+          echo "Versione $VERSION, build ${{ github.run_number }}"
+
+      - name: Godot - template di export
+        shell: bash
+        run: |
+          mkdir -p ~/.local/share/godot/export_templates ~/.config/godot
+          if [ ! -d ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable ]; then
+            cp -r /root/.local/share/godot/export_templates/${GODOT_VERSION}.stable ~/.local/share/godot/export_templates/
+          fi
+          ls ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable | head -20
+          godot --version
+
+      - name: SDK Android (piattaforma 34, build-tools 34)
+        shell: bash
+        run: |
+          SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          [ -x "$SDKM" ] || SDKM=sdkmanager
+          yes | "$SDKM" --licenses > /dev/null || true
+          "$SDKM" "platforms;android-34" "build-tools;34.0.0" "platform-tools" > /dev/null
+          ls "$ANDROID_HOME/platforms" "$ANDROID_HOME/build-tools"
+
+      - name: Keystore di debug generato al volo
+        shell: bash
+        run: |
+          KS="$RUNNER_TEMP/debug.keystore"
+          keytool -genkeypair -v -keystore "$KS" -storepass android -alias androiddebugkey -keypass android \
+            -keyalg RSA -keysize 2048 -validity 9999 -dname "CN=Android Debug,O=Android,C=US" -storetype pkcs12
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_PATH=$KS" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_USER=androiddebugkey" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD=android" >> "$GITHUB_ENV"
+          JAVA_HOME_DIR=$(dirname "$(dirname "$(readlink -f "$(which java)")")")
+          echo "JAVA_HOME=$JAVA_HOME_DIR" >> "$GITHUB_ENV"
+          # impostazioni dell'editor (per minor version da Godot 4.3) nella HOME del container
+          cat > ~/.config/godot/editor_settings-${GODOT_VERSION}.tres <<EOF
+          [gd_resource type="EditorSettings" format=3]
+
+          [resource]
+          export/android/java_sdk_path = "$JAVA_HOME_DIR"
+          export/android/android_sdk_path = "$ANDROID_HOME"
+          export/android/debug_keystore = "$KS"
+          export/android/debug_keystore_user = "androiddebugkey"
+          export/android/debug_keystore_pass = "android"
+          export/android/force_system_user = false
+          export/android/timestamping_authority_url = ""
+          export/android/shutdown_adb_on_exit = true
+          EOF
+          sed -i 's/^          //' ~/.config/godot/editor_settings-${GODOT_VERSION}.tres
+          cat ~/.config/godot/editor_settings-${GODOT_VERSION}.tres
+
+      - name: Import del progetto
+        shell: bash
+        run: |
+          # l'import headless di Godot 4.3 a volte si interrompe al primo passaggio: si ripete fino a 3 volte
+          for i in 1 2 3; do
+            if godot --headless --import > import_$i.log 2>&1; then echo "import riuscito al tentativo $i"; break; fi
+            echo "import fallito al tentativo $i, riprovo"; tail -20 import_$i.log
+            if [ "$i" = "3" ]; then exit 1; fi
+          done
+          ls localization
+
+      - name: Controllo compilazione degli script
+        shell: bash
+        run: godot --headless -s res://tools/check_scripts.gd 2>&1 | tee check.log; test "${PIPESTATUS[0]}" -eq 0
+
+      - name: Test GUT
+        shell: bash
+        run: |
+          set -o pipefail
+          godot --headless -s res://addons/gut/gut_cmdln.gd -gdir=res://tests/unit -gexit 2>&1 | tee gut.log
+          if grep -q "SCRIPT ERROR" gut.log; then
+            echo "::error::Errori di script durante i test"; grep -A2 "SCRIPT ERROR" gut.log | head -40; exit 1
+          fi
+          sed 's/\x1b\[[0-9;]*m//g' gut.log | grep -E "^Tests|Passing|Failing|Time|raggiunta|battaglie:|unita'" > test_summary.txt || true
+          cat test_summary.txt
+
+      - name: Template di build Android (Gradle)
+        shell: bash
+        run: |
+          rm -rf android
+          mkdir -p android/build
+          unzip -q ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable/android_source.zip -d android/build
+          echo "${GODOT_VERSION}.stable" > android/.build_version
+          touch android/build/.gdignore
+          chmod +x android/build/gradlew
+          ls android/build | head
+
+      - name: Export APK (headless)
+        shell: bash
+        run: |
+          sed -i "s/^version\/code=.*/version\/code=${{ steps.ver.outputs.code }}/" export_presets.cfg
+          sed -i "s/^version\/name=.*/version\/name=\"${{ steps.ver.outputs.version }}\"/" export_presets.cfg
+          mkdir -p build
+          godot --headless --verbose --export-debug "Android" "build/${{ steps.ver.outputs.apk }}" 2>&1 | tee export.log
+          test -f "build/${{ steps.ver.outputs.apk }}"
+
+      - name: Verifica dell'APK
+        id: apk
+        shell: bash
+        run: |
+          APK="build/${{ steps.ver.outputs.apk }}"
+          BT="$ANDROID_HOME/build-tools/34.0.0"
+          "$BT/aapt" dump badging "$APK" | grep -E "^package|sdkVersion|targetSdkVersion|native-code|launchable-activity|application-label:" | tee apk_info.txt
+          "$BT/apksigner" verify --verbose --print-certs "$APK" | grep -E "Verified|Signer #1 certificate DN" | tee -a apk_info.txt
+          SIZE=$(du -h "$APK" | cut -f1)
+          SHA=$(sha256sum "$APK" | cut -d' ' -f1)
+          echo "size=$SIZE" >> "$GITHUB_OUTPUT"
+          echo "Dimensione: $SIZE, SHA-256: $SHA" | tee -a apk_info.txt
+          grep -q "sdkVersion:'24'" apk_info.txt
+          grep -q "targetSdkVersion:'34'" apk_info.txt
+          {
+            echo "APK debug di **Lanternreach ${{ steps.ver.outputs.version }}** (build ${{ github.run_number }}, commit ${GITHUB_SHA::7})."
+            echo
+            echo "Installazione: scarica l'APK sul telefono Android e aprilo (consenti l'installazione da origini sconosciute)."
+            echo
+            echo "### APK"
+            echo '```'
+            cat apk_info.txt
+            echo '```'
+            echo "### Test"
+            echo '```'
+            cat test_summary.txt
+            echo '```'
+          } > release_notes.md
+
+      - name: Artifact APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.ver.outputs.apk }}
+          path: build/${{ steps.ver.outputs.apk }}
+          if-no-files-found: error
+
+      - name: Release GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.ver.outputs.tag }}
+          name: Lanternreach ${{ steps.ver.outputs.version }} (build ${{ github.run_number }})
+          body_path: release_notes.md
+          target_commitish: ${{ github.sha }}
+          files: build/${{ steps.ver.outputs.apk }}
+          make_latest: true
+
+      - name: Log in caso di errore
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ github.run_number }}
+          path: |
+            import_*.log
+            check.log
+            gut.log
+            export.log
+          if-no-files-found: ignore

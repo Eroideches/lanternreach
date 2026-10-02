@@ -1,0 +1,416 @@
+[
+  {
+    "id": "loot_cogs",
+    "tier": 1,
+    "metric": "cogs_looted_total",
+    "target": 100000,
+    "reward_gems": 10,
+    "name_key": "ach.loot_cogs.name",
+    "desc_key": "ach.loot_cogs.desc"
+  },
+  {
+    "id": "loot_cogs",
+    "tier": 2,
+    "metric": "cogs_looted_total",
+    "target": 5000000,
+    "reward_gems": 50,
+    "name_key": "ach.loot_cogs.name",
+    "desc_key": "ach.loot_cogs.desc"
+  },
+  {
+    "id": "loot_cogs",
+    "tier": 3,
+    "metric": "cogs_looted_total",
+    "target": 50000000,
+    "reward_gems": 200,
+    "name_key": "ach.loot_cogs.name",
+    "desc_key": "ach.loot_cogs.desc"
+  },
+  {
+    "id": "loot_sap",
+    "tier": 1,
+    "metric": "sap_looted_total",
+    "target": 100000,
+    "reward_gems": 10,
+    "name_key": "ach.loot_sap.name",
+    "desc_key": "ach.loot_sap.desc"
+  },
+  {
+    "id": "loot_sap",
+    "tier": 2,
+    "metric": "sap_looted_total",
+    "target": 5000000,
+    "reward_gems": 50,
+    "name_key": "ach.loot_sap.name",
+    "desc_key": "ach.loot_sap.desc"
+  },
+  {
+    "id": "loot_sap",
+    "tier": 3,
+    "metric": "sap_looted_total",
+    "target": 50000000,
+    "reward_gems": 200,
+    "name_key": "ach.loot_sap.name",
+    "desc_key": "ach.loot_sap.desc"
+  },
+  {
+    "id": "win_battles",
+    "tier": 1,
+    "metric": "attack_wins",
+    "target": 10,
+    "reward_gems": 10,
+    "name_key": "ach.win_battles.name",
+    "desc_key": "ach.win_battles.desc"
+  },
+  {
+    "id": "win_battles",
+    "tier": 2,
+    "metric": "attack_wins",
+    "target": 100,
+    "reward_gems": 50,
+    "name_key": "ach.win_battles.name",
+    "desc_key": "ach.win_battles.desc"
+  },
+  {
+    "id": "win_battles",
+    "tier": 3,
+    "metric": "attack_wins",
+    "target": 1000,
+    "reward_gems": 200,
+    "name_key": "ach.win_battles.name",
+    "desc_key": "ach.win_battles.desc"
+  },
+  {
+    "id": "earn_stars",
+    "tier": 1,
+    "metric": "stars_total",
+    "target": 30,
+    "reward_gems": 10,
+    "name_key": "ach.earn_stars.name",
+    "desc_key": "ach.earn_stars.desc"
+  },
+  {
+    "id": "earn_stars",
+    "tier": 2,
+    "metric": "stars_total",
+    "target": 300,
+    "reward_gems": 50,
+    "name_key": "ach.earn_stars.name",
+    "desc_key": "ach.earn_stars.desc"
+  },
+  {
+    "id": "earn_stars",
+    "tier": 3,
+    "metric": "stars_total",
+    "target": 3000,
+    "reward_gems": 250,
+    "name_key": "ach.earn_stars.name",
+    "desc_key": "ach.earn_stars.desc"
+  },
+  {
+    "id": "raze_defenses",
+    "tier": 1,
+    "metric": "defenses_destroyed",
+    "target": 25,
+    "reward_gems": 10,
+    "name_key": "ach.raze_defenses.name",
+    "desc_key": "ach.raze_defenses.desc"
+  },
+  {
+    "id": "raze_defenses",
+    "tier": 2,
+    "metric": "defenses_destroyed",
+    "target": 250,
+    "reward_gems": 50,
+    "name_key": "ach.raze_defenses.name",
+    "desc_key": "ach.raze_defenses.desc"
+  },
+  {
+    "id": "raze_defenses",
+    "tier": 3,
+    "metric": "defenses_destroyed",
+    "target": 2500,
+    "reward_gems": 200,
+    "name_key": "ach.raze_defenses.name",
+    "desc_key": "ach.raze_defenses.desc"
+  },
+  {
+    "id": "hold_the_line",
+    "tier": 1,
+    "metric": "defense_wins",
+    "target": 5,
+    "reward_gems": 10,
+    "name_key": "ach.hold_the_line.name",
+    "desc_key": "ach.hold_the_line.desc"
+  },
+  {
+    "id": "hold_the_line",
+    "tier": 2,
+    "metric": "defense_wins",
+    "target": 50,
+    "reward_gems": 50,
+    "name_key": "ach.hold_the_line.name",
+    "desc_key": "ach.hold_the_line.desc"
+  },
+  {
+    "id": "hold_the_line",
+    "tier": 3,
+    "metric": "defense_wins",
+    "target": 500,
+    "reward_gems": 200,
+    "name_key": "ach.hold_the_line.name",
+    "desc_key": "ach.hold_the_line.desc"
+  },
+  {
+    "id": "tidy_up",
+    "tier": 1,
+    "metric": "obstacles_cleared",
+    "target": 10,
+    "reward_gems": 5,
+    "name_key": "ach.tidy_up.name",
+    "desc_key": "ach.tidy_up.desc"
+  },
+  {
+    "id": "tidy_up",
+    "tier": 2,
+    "metric": "obstacles_cleared",
+    "target": 100,
+    "reward_gems": 30,
+    "name_key": "ach.tidy_up.name",
+    "desc_key": "ach.tidy_up.desc"
+  },
+  {
+    "id": "tidy_up",
+    "tier": 3,
+    "metric": "obstacles_cleared",
+    "target": 500,
+    "reward_gems": 100,
+    "name_key": "ach.tidy_up.name",
+    "desc_key": "ach.tidy_up.desc"
+  },
+  {
+    "id": "lantern_rising",
+    "tier": 1,
+    "metric": "hall_level",
+    "target": 3,
+    "reward_gems": 20,
+    "name_key": "ach.lantern_rising.name",
+    "desc_key": "ach.lantern_rising.desc"
+  },
+  {
+    "id": "lantern_rising",
+    "tier": 2,
+    "metric": "hall_level",
+    "target": 6,
+    "reward_gems": 60,
+    "name_key": "ach.lantern_rising.name",
+    "desc_key": "ach.lantern_rising.desc"
+  },
+  {
+    "id": "lantern_rising",
+    "tier": 3,
+    "metric": "hall_level",
+    "target": 10,
+    "reward_gems": 200,
+    "name_key": "ach.lantern_rising.name",
+    "desc_key": "ach.lantern_rising.desc"
+  },
+  {
+    "id": "trophy_hunter",
+    "tier": 1,
+    "metric": "trophies_best",
+    "target": 400,
+    "reward_gems": 15,
+    "name_key": "ach.trophy_hunter.name",
+    "desc_key": "ach.trophy_hunter.desc"
+  },
+  {
+    "id": "trophy_hunter",
+    "tier": 2,
+    "metric": "trophies_best",
+    "target": 1200,
+    "reward_gems": 60,
+    "name_key": "ach.trophy_hunter.name",
+    "desc_key": "ach.trophy_hunter.desc"
+  },
+  {
+    "id": "trophy_hunter",
+    "tier": 3,
+    "metric": "trophies_best",
+    "target": 3200,
+    "reward_gems": 200,
+    "name_key": "ach.trophy_hunter.name",
+    "desc_key": "ach.trophy_hunter.desc"
+  },
+  {
+    "id": "campaign_walker",
+    "tier": 1,
+    "metric": "campaign_stars",
+    "target": 15,
+    "reward_gems": 15,
+    "name_key": "ach.campaign_walker.name",
+    "desc_key": "ach.campaign_walker.desc"
+  },
+  {
+    "id": "campaign_walker",
+    "tier": 2,
+    "metric": "campaign_stars",
+    "target": 45,
+    "reward_gems": 45,
+    "name_key": "ach.campaign_walker.name",
+    "desc_key": "ach.campaign_walker.desc"
+  },
+  {
+    "id": "campaign_walker",
+    "tier": 3,
+    "metric": "campaign_stars",
+    "target": 75,
+    "reward_gems": 120,
+    "name_key": "ach.campaign_walker.name",
+    "desc_key": "ach.campaign_walker.desc"
+  },
+  {
+    "id": "spellcaster",
+    "tier": 1,
+    "metric": "spells_cast",
+    "target": 25,
+    "reward_gems": 5,
+    "name_key": "ach.spellcaster.name",
+    "desc_key": "ach.spellcaster.desc"
+  },
+  {
+    "id": "spellcaster",
+    "tier": 2,
+    "metric": "spells_cast",
+    "target": 250,
+    "reward_gems": 20,
+    "name_key": "ach.spellcaster.name",
+    "desc_key": "ach.spellcaster.desc"
+  },
+  {
+    "id": "spellcaster",
+    "tier": 3,
+    "metric": "spells_cast",
+    "target": 2500,
+    "reward_gems": 60,
+    "name_key": "ach.spellcaster.name",
+    "desc_key": "ach.spellcaster.desc"
+  },
+  {
+    "id": "barracks_busy",
+    "tier": 1,
+    "metric": "troops_trained",
+    "target": 100,
+    "reward_gems": 5,
+    "name_key": "ach.barracks_busy.name",
+    "desc_key": "ach.barracks_busy.desc"
+  },
+  {
+    "id": "barracks_busy",
+    "tier": 2,
+    "metric": "troops_trained",
+    "target": 1000,
+    "reward_gems": 20,
+    "name_key": "ach.barracks_busy.name",
+    "desc_key": "ach.barracks_busy.desc"
+  },
+  {
+    "id": "barracks_busy",
+    "tier": 3,
+    "metric": "troops_trained",
+    "target": 10000,
+    "reward_gems": 60,
+    "name_key": "ach.barracks_busy.name",
+    "desc_key": "ach.barracks_busy.desc"
+  },
+  {
+    "id": "builder_hands",
+    "tier": 1,
+    "metric": "upgrades_done",
+    "target": 10,
+    "reward_gems": 10,
+    "name_key": "ach.builder_hands.name",
+    "desc_key": "ach.builder_hands.desc"
+  },
+  {
+    "id": "builder_hands",
+    "tier": 2,
+    "metric": "upgrades_done",
+    "target": 100,
+    "reward_gems": 40,
+    "name_key": "ach.builder_hands.name",
+    "desc_key": "ach.builder_hands.desc"
+  },
+  {
+    "id": "builder_hands",
+    "tier": 3,
+    "metric": "upgrades_done",
+    "target": 500,
+    "reward_gems": 120,
+    "name_key": "ach.builder_hands.name",
+    "desc_key": "ach.builder_hands.desc"
+  },
+  {
+    "id": "wall_wrecker",
+    "tier": 1,
+    "metric": "walls_destroyed",
+    "target": 100,
+    "reward_gems": 5,
+    "name_key": "ach.wall_wrecker.name",
+    "desc_key": "ach.wall_wrecker.desc"
+  },
+  {
+    "id": "wall_wrecker",
+    "tier": 2,
+    "metric": "walls_destroyed",
+    "target": 1000,
+    "reward_gems": 20,
+    "name_key": "ach.wall_wrecker.name",
+    "desc_key": "ach.wall_wrecker.desc"
+  },
+  {
+    "id": "wall_wrecker",
+    "tier": 3,
+    "metric": "walls_destroyed",
+    "target": 10000,
+    "reward_gems": 60,
+    "name_key": "ach.wall_wrecker.name",
+    "desc_key": "ach.wall_wrecker.desc"
+  },
+  {
+    "id": "shard_seeker",
+    "tier": 1,
+    "metric": "shards_collected",
+    "target": 1000,
+    "reward_gems": 10,
+    "name_key": "ach.shard_seeker.name",
+    "desc_key": "ach.shard_seeker.desc"
+  },
+  {
+    "id": "shard_seeker",
+    "tier": 2,
+    "metric": "shards_collected",
+    "target": 50000,
+    "reward_gems": 50,
+    "name_key": "ach.shard_seeker.name",
+    "desc_key": "ach.shard_seeker.desc"
+  },
+  {
+    "id": "shard_seeker",
+    "tier": 3,
+    "metric": "shards_collected",
+    "target": 1000000,
+    "reward_gems": 150,
+    "name_key": "ach.shard_seeker.name",
+    "desc_key": "ach.shard_seeker.desc"
+  },
+  {
+    "id": "join_the_hall",
+    "tier": 1,
+    "metric": "clan_joined",
+    "target": 1,
+    "reward_gems": 10,
+    "name_key": "ach.join_the_hall.name",
+    "desc_key": "ach.join_the_hall.desc"
+  }
+]

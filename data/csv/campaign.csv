@@ -1,0 +1,26 @@
+level,name_key,name_en,hall_level,walls,loot_cogs,loot_sap,loot_shards,boss,first_3star_gems,gimmick,difficulty,boltpost,lobber,skyspear,arc_coil,ballista,thumper,frost_spire,cinder_spout,storm_pylon
+1,campaign.01.name,Mossy Gate,1,0,280,280,0,False,6,"Tutorial: una sola Boltpost, nessuna mura",0.45,1,0,0,0,0,0,0,0,0
+2,campaign.02.name,Pebble Hollow,2,10,855,855,0,False,7,Introduce le mura: porta singola,0.55,2,0,0,0,0,0,0,0,0
+3,campaign.03.name,Dewdrop Farm,2,20,870,870,0,False,8,"Mine esterne, esca per saccheggiatori",0.65,2,1,0,0,0,0,0,0,0
+4,campaign.04.name,Cricket Hill,3,30,2950,2950,0,False,9,Introduce trappola bomba,0.72,2,1,0,0,0,0,0,0,0
+5,campaign.05.name,Thistle Fort,3,40,3000,3000,0,False,10,Prima difesa antiaerea: volanti penalizzati,0.8,2,1,1,0,0,0,0,0,0
+6,campaign.06.name,Mudwater Docks,4,50,9150,9150,0,False,11,"Base lunga e stretta, deposito isolato",0.85,3,1,1,0,0,0,0,0,0
+7,campaign.07.name,Rustbucket Yard,4,60,9300,9300,0,False,12,Introduce Arc Coil al centro,0.9,3,2,1,1,0,0,0,0,0
+8,campaign.08.name,Hornet Ridge,5,75,25200,25200,12,False,13,Antiaerea concentrata a nord,0.94,3,2,1,1,0,0,0,0,0
+9,campaign.09.name,Fungus Fen,5,90,25600,25600,12,False,14,Prima Ballista a lungo raggio,0.97,3,2,2,1,1,0,0,0,0
+10,campaign.10.name,The Gearmill,5,110,26000,26000,12,True,15,"BOSS 1: doppio anello di mura, trappole molle",1.0,3,2,2,1,1,0,0,0,0
+11,campaign.11.name,Brambleback,6,125,59400,59400,36,False,16,Introduce Thumper: massimo danno ai tank,1.0,4,2,2,1,1,1,0,0,0
+12,campaign.12.name,Cobweb Cliffs,6,140,60300,60300,36,False,17,"Difese a scacchiera, trappole snare",1.0,4,3,2,2,1,1,0,0,0
+13,campaign.13.name,Gloomtide Pier,7,150,122000,122000,72,False,18,Lunga banchina: schieramento limitato a un lato,1.0,4,3,2,2,1,1,0,0,0
+14,campaign.14.name,Lanternless Alley,7,165,124000,124000,72,False,19,Introduce Frost Spire: truppe rallentate,1.0,4,3,3,2,2,1,1,0,0
+15,campaign.15.name,Cinder Orchard,7,175,126000,126000,72,False,20,Depositi molto distribuiti,1.0,4,3,3,2,2,1,1,0,0
+16,campaign.16.name,Wraith Reservoir,8,190,213000,213000,120,False,21,Mine d'aria: volanti rischiosi,1.0,5,3,3,2,2,1,1,0,0
+17,campaign.17.name,Thunder Terrace,8,200,216000,216000,120,False,22,Introduce Cinder Spout al centro,1.0,5,4,3,3,2,2,1,1,0
+18,campaign.18.name,Frostbitten Fields,8,200,219000,219000,120,False,23,Tre Frost Spire sovrapposte,1.0,5,4,3,3,2,2,1,1,0
+19,campaign.19.name,Smogspire,9,215,333000,333000,192,False,24,Torre fumo: visibilita' ridotta (solo estetica),1.0,5,4,3,3,2,2,2,1,0
+20,campaign.20.name,Mirror Marsh,9,225,338000,338000,192,True,25,Introduce Storm Pylon: volanti in difficolta',1.0,5,4,4,3,3,2,2,1,1
+21,campaign.21.name,Bonecog Citadel,9,225,342000,342000,192,False,26,BOSS 2: tre compartimenti concentrici,1.0,5,4,4,3,3,2,2,1,1
+22,campaign.22.name,Stormcrow Keep,10,250,462000,462000,270,False,27,"Hall 10, tempo ridotto di attacco consigliato",1.0,6,4,3,3,2,2,2,1,1
+23,campaign.23.name,Hollow Sun,10,250,468000,468000,270,False,28,"Difese miste ravvicinate, molte trappole",1.0,6,4,4,3,3,2,2,2,1
+24,campaign.24.name,The Long Night Wall,10,250,474000,474000,270,False,29,Mura di livello massimo con lacune nascoste,1.0,6,4,4,3,3,2,2,2,2
+25,campaign.25.name,Gloomqueen's Throne,10,250,480000,480000,270,True,30,"BOSS FINALE: tutte le difese, Hall con aura (+30% HP)",1.0,6,4,4,3,3,2,2,2,2
