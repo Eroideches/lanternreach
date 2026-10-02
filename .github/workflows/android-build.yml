@@ -155,7 +155,8 @@ jobs:
           {
             echo "APK debug di **Lanternreach ${{ steps.ver.outputs.version }}** (build ${{ github.run_number }}, commit ${GITHUB_SHA::7})."
             echo
-            echo "Installazione: scarica l'APK sul telefono Android e aprilo (consenti l'installazione da origini sconosciute)."
+            echo "Installazione: dal browser del telefono Android scarica il file \`${{ steps.ver.outputs.apk }}\` qui sotto (Assets) e aprilo, consentendo l'installazione da origini sconosciute."
+            echo "L'artifact della pagina Actions è invece un archivio ZIP che contiene l'APK: va estratto prima dell'installazione."
             echo
             echo "### APK"
             echo '```'
@@ -171,10 +172,12 @@ jobs:
             echo '```'
           } > release_notes.md
 
+      # GitHub consegna sempre gli artifact dentro uno ZIP: il nome non finisce in .apk per non
+      # confonderlo con l'APK installabile, che è l'allegato della Release.
       - name: Artifact APK
         uses: actions/upload-artifact@v7
         with:
-          name: ${{ steps.ver.outputs.apk }}
+          name: ${{ env.EXPORT_NAME }}-apk-build-${{ github.run_number }}
           path: build/${{ steps.ver.outputs.apk }}
           if-no-files-found: error
 

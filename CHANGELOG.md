@@ -4,6 +4,7 @@
 - Repository pubblico con README, GDD, ART_DIRECTION, CREDITS, DECISIONS, CHANGELOG e licenza MIT.
 - `export_presets.cfg`: preset "Android" (com.lanternreach.game, build Gradle con minSdk 24 / targetSdk 34, arm64-v8a + armeabi-v7a, nessun permesso).
 - Workflow `.github/workflows/android-build.yml`: a ogni push su main (e manualmente) importa il progetto, controlla gli script, esegue i test GUT (fallisce su test falliti o SCRIPT ERROR), genera un keystore di debug, esporta l'APK in headless, lo verifica (SDK, firma), lo pubblica come artifact e come allegato di una Release `v<versione>-build.<n>`.
+- Librerie native compresse nell'APK (da circa 160 MB a circa 70 MB). L'artifact si chiama `lanternreach-apk-build-<n>` perché GitHub lo consegna come ZIP; l'APK installabile è l'allegato della Release.
 
 ## 0.3.0 — Fase 3: sviluppo
 - Progetto Godot 4.3 (renderer Compatibility, orizzontale, stretch `canvas_items`).

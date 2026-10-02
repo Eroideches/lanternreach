@@ -3,7 +3,7 @@
 [![Android build](https://github.com/Eroideches/lanternreach/actions/workflows/android-build.yml/badge.svg)](https://github.com/Eroideches/lanternreach/actions/workflows/android-build.yml)
 [![Release](https://img.shields.io/github/v/release/Eroideches/lanternreach?include_prereleases&label=APK)](https://github.com/Eroideches/lanternreach/releases/latest)
 
-**Scarica l'APK:** [ultima Release](https://github.com/Eroideches/lanternreach/releases/latest). Ogni push su `main` produce un APK debug firmato, allegato a una Release e disponibile come artifact del workflow.
+**Scarica l'APK:** [ultima Release](https://github.com/Eroideches/lanternreach/releases/latest), file `.apk` nella sezione *Assets*, da aprire dal telefono. Ogni push su `main` produce un APK debug firmato, allegato a una Release. È disponibile anche come artifact del workflow, ma GitHub consegna gli artifact dentro uno ZIP da estrarre: per installare usa il file della Release.
 
 **Lanternreach** è un gioco di strategia per Android di tipo *base-building* con attacco asincrono, realizzato in **Godot 4.3** (GDScript). Il giocatore ricostruisce un villaggio di Lanternari su un'isola sospesa nel cielo, raccoglie risorse, addestra truppe originali e attacca i villaggi della Marea d'Ombra e le basi di altri giocatori simulate.
 
